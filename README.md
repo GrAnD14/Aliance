@@ -1,3 +1,3 @@
-# html-start
-Стартовый шаблон дл верстки очередного проекта
+# Aliance Production
+Создание проекта Aliance Production
 ### Автор: Даниил Афанасьев
