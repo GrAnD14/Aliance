@@ -54,6 +54,27 @@ body {
     position: fixed;
     z-index: 2;
     width: 100%;
+    left: 0;
+    top: 0;
+    transition: 0.2s;
+}
+
+.navbar-light {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: rgba(41, 45, 51, 1);
+    height: 94px;
+    border-bottom: 1px solid rgba(235, 235, 240, 0.2);
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.navbar-light .header-logo-path {
+    fill: rgba(41, 45, 51, 1);
 }
 
 .header-logo {
