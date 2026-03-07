@@ -22,7 +22,7 @@ const lightOff = (even) => {
 const close_menu = (x) => {
   moblines1.style.transform = "translateY(7px) rotate(48deg)";
   moblines2.style.display = "none";
-  moblines3.style.transform = "translateY(-0.7px) rotate(-48deg)";
+  moblines3.style.transform = "translateY(-0.89px) rotate(-48deg)";
 };
 
 const burger = (x) => {
