@@ -81,7 +81,7 @@ html {
 .mobile-nav-headers {
     list-style: none;
     margin-top: 57px;
-    padding-top: 30px;
+    padding-top: 2.4rem;
 }
 
 .mobile-header-nav-link {
@@ -111,7 +111,8 @@ html {
 }
 
 .submenu-text:not(:first-child) {
-    margin-top: 10px;
+    margin-top: 0.91rem;
+    letter-spacing: 0.009rem;
 }
 
 
@@ -152,15 +153,7 @@ html {
     margin-top: 20px;
 }
 
-.address-info {
-    color: var(--txt, rgba(41, 45, 51, 1));
-    font-family: Noto Sans;
-    font-style: Regular;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 160%;
-    text-decoration: none;
-}
+
 
 .header-logo {
     display: flex;
@@ -256,7 +249,7 @@ html {
 .separate {
     background: #5C8EE5;
     width: 9.375rem;
-    height: .125rem;
+    height: 2px;
 }
 
 .header-content {
@@ -309,8 +302,8 @@ html {
 }
 
 .sprite-icons {
-    width: 2.25rem;
-    height: 2.25rem;
+    width: 36px;
+    height: 36px;
 }
 
 .header-features-text {
@@ -528,7 +521,7 @@ html {
 
     .mobile-lines:nth-child(3) {
         background: #fff;
-        
+
     }
 
 
@@ -542,6 +535,14 @@ html {
         padding-left: 15px;
         top: 0;
         left: 0;
+    }
+
+    .mobile-nav-headers {
+        padding-top: 2.1rem;
+    }
+
+    .header-links {
+        letter-spacing: 0.2px;
     }
 
     .mobile-separator {
@@ -568,29 +569,58 @@ html {
     .mobile-info_1 {
         display: flex;
         align-items: center;
-        margin-top: 2.1rem;
+        margin-top: 2rem;
+        gap: 1rem;
     }
 
 
     .mobile-info_2 {
         display: flex;
         align-items: center;
-        margin-top: 1.2rem;
+        margin-top: 1rem;
+        gap: 1rem;
     }
 
-    .mobile-info-text {
+    .address-info {
         color: var(--txt, rgba(41, 45, 51, 1));
         font-family: Noto Sans;
         font-size: 14px;
         font-weight: 400;
         line-height: 160%;
+        font-style: normal;
+        letter-spacing: 0.005rem;
     }
+
+
+    .mail-info {
+        color: var(--txt, rgba(41, 45, 51, 1));
+        font-family: Noto Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 160%;
+        text-decoration: none;
+    }
+
+
+    .icons-messangers {
+        display: flex;
+        padding-top: 2rem;
+        gap: 1.5rem;
+        align-items: center;
+    }
+
+    .phone-svg {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
 
 
     .header-logo {
         flex: 1;
         border: none;
         justify-content: center;
+        padding-top: 2.3rem;
     }
 
     .logo-svg {
@@ -609,7 +639,9 @@ html {
 
     .header-button {
         max-width: 8rem;
+
     }
+
 
     .phone-svg-button {
         display: flex;
@@ -621,13 +653,14 @@ html {
     }
 
     .navbar-light {
-        height: 4.8rem;
+        height: 4.9rem;
     }
 
     .navbar-light .mobile-menu {
-        padding: 1.5rem 2.8rem;
+        padding: 1.61rem 2.8rem;
         max-width: 80px;
         height: 100%;
+
     }
 
     .navbar-light .mobile-lines {
@@ -635,7 +668,11 @@ html {
     }
 
     .navbar-light .header-button {
-        padding: 0.56rem;
+        padding: 1.3rem 2.9rem;
+    }
+
+    .navbar-light .header-logo {
+        padding-top: 1.5rem;
     }
 
 
@@ -646,10 +683,12 @@ html {
 
     .header-title {
         width: 67.5vw;
+        font-size: 4.8rem;
     }
 
     .header-text {
         width: 62vw;
+        font-size: 1.4rem;
     }
 
     .header-features {
