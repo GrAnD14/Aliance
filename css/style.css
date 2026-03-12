@@ -13,17 +13,28 @@
 
 body {
     font-family: "Noto Sans", sans-serif;
+
 }
 
 html {
     font-size: 16px;
+
 }
 
-.container {
-    width: 90rem;
+.container,
+.container_2 {
     margin: auto;
     overflow: hidden;
 }
+
+.container_2 {
+    width: 90rem;
+}
+
+.container {
+    width: 92rem;
+}
+
 
 .header {
     min-height: 100vh;
@@ -32,7 +43,7 @@ html {
 
 .header.header-image {
     background-image: url("../images/main_img.jpg");
-
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center left;
     position: relative;
@@ -48,6 +59,7 @@ html {
     z-index: 0;
     background: #292D33;
     opacity: 60%;
+
 }
 
 .navbar {
@@ -62,6 +74,7 @@ html {
     left: 0;
     top: 0;
     transition: 0.2s;
+
 }
 
 
@@ -259,7 +272,7 @@ html {
     position: relative;
     z-index: 1;
     color: #fff;
-    padding-left: .6875rem;
+    padding-left: 1.6875rem;
 }
 
 .header-title {
@@ -278,7 +291,7 @@ html {
     font-weight: 400;
     line-height: 160%;
     margin: 2.5rem 0rem;
-    letter-spacing: .0063rem;
+    letter-spacing: 0.007rem;
 }
 
 .hide-swiper {
@@ -290,7 +303,7 @@ html {
     display: flex;
     padding: 0;
     margin-top: 6.25rem;
-    margin-left: .5rem;
+    margin-left: 1.5rem;
     list-style: none;
     color: #fff;
     width: 90.125rem;
@@ -436,8 +449,13 @@ html {
     }
 
     .container {
-        max-width: 80rem;
+        max-width: 82rem;
     }
+
+    .container_2 {
+        max-width: 84rem;
+    }
+
 
     .header-features {
         margin-left: 0;
@@ -482,7 +500,11 @@ html {
     }
 
     .container {
-        max-width: 80rem;
+        max-width: 81rem;
+    }
+
+    .container_2 {
+        width: 80rem;
     }
 
     .header-features {
@@ -789,22 +811,35 @@ html {
         height: auto;
     }
 
+    .container_2 {
+        width: auto;
+    }
+
     .section {
         margin-top: 11rem;
     }
 
     .hide-swiper-section-light {
         display: block;
+        width: auto;
     }
+
 
     .steps {
         display: none;
         flex-wrap: nowrap;
+
+    }
+
+    .steps-item {
+        max-width: 300px;
     }
 
     .steps-num {
         font-size: 4.8rem;
     }
+
+
 
     .section-title {
         font-size: 3.6rem;
@@ -812,6 +847,7 @@ html {
 
     .steps-title {
         font-size: 2rem;
+        margin-top: 1.25rem;
     }
 
     .steps-text {
