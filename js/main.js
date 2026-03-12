@@ -53,3 +53,27 @@ mobmenu.onclick = () => {
     burger();
   }
 };
+
+const swiper = new Swiper(".swiper", {
+  slidesPerView: 2,
+  speed: 400,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 2,
+    },
+
+    425: {
+      slidesPerView: 3,
+    },
+
+    768: {
+      slidesPerView: 4,
+    },
+  },
+});
+
