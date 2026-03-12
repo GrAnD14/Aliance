@@ -789,6 +789,10 @@ html {
         height: auto;
     }
 
+    .section {
+        margin-top: 11rem;
+    }
+
     .hide-swiper-section-light {
         display: block;
     }
