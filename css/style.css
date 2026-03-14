@@ -364,6 +364,7 @@ html {
 
 .hide-swiper-section-light {
     display: none;
+
 }
 
 .section {
@@ -451,7 +452,7 @@ html {
     content: "";
     height: .0625rem;
     background: rgba(92, 142, 230, 1);
-    width: 2.5rem;
+    min-width: 40px;
     margin-right: 1.25rem;
 }
 
@@ -619,7 +620,7 @@ html {
 
     .header-links {
         letter-spacing: 0.2px;
-        
+
     }
 
     .mobile-separator {
@@ -818,6 +819,8 @@ html {
         display: flex;
         justify-self: end;
         height: 4rem;
+        margin-right: 15px;
+        margin-top: 8px;
     }
 
 
@@ -855,6 +858,7 @@ html {
 
     .container_2 {
         width: auto;
+        height: fit-content;
     }
 
     .section {
@@ -864,17 +868,21 @@ html {
     .hide-swiper-section-light {
         display: block;
         width: auto;
+        height: fit-content;
     }
 
 
     .steps {
         display: none;
         flex-wrap: nowrap;
+        gap: 31px;
 
     }
 
     .steps-item {
-        max-width: 300px;
+        min-width: 300px;
+
+
     }
 
     .steps-num {
@@ -882,6 +890,9 @@ html {
     }
 
 
+    .section .section-light {
+        height: auto;
+    }
 
     .section-title {
         font-size: 3.6rem;
@@ -894,10 +905,15 @@ html {
 
     .steps-text {
         font-size: 1.4rem;
+        letter-spacing: 0.2px;
     }
 
     .steps-link {
         font-size: 1.4rem;
+        margin-top: 2.4rem;
+
+        gap: 8px;
+        letter-spacing: 0.59px;
     }
 
 

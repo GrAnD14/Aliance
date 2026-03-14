@@ -56,8 +56,9 @@ mobmenu.onclick = () => {
 
 const swiper = new Swiper(".swiper", {
   slidesPerView: 2,
-  speed: 400,
+  speed: 200,
   loop: true,
+
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
