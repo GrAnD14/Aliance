@@ -74,6 +74,7 @@ html {
     left: 0;
     top: 0;
     transition: 0.2s;
+    overflow: auto;
 
 }
 
@@ -113,6 +114,7 @@ html {
     font-size: 14px;
     font-weight: 700;
     line-height: 160%;
+    word-break: break-all;
 }
 
 .submenu-header-links {
@@ -122,16 +124,19 @@ html {
 
 .submenu-text {
     list-style: none;
+
 }
 
 .submenu-text:not(:first-child) {
     margin-top: 0.91rem;
     letter-spacing: 0.009rem;
+
 }
 
 
 .submenu-text a {
     text-decoration: none;
+
 }
 
 .submenu-links-text {
@@ -141,6 +146,8 @@ html {
     font-size: 14px;
     font-weight: 400;
     line-height: 160%;
+    word-break: break-all;
+
 }
 
 .mobile-separator {
@@ -158,6 +165,7 @@ html {
     font-weight: 600;
     line-height: 160%;
     margin-top: 30px;
+    word-break: break-all;
 }
 
 .mobile-info {
@@ -188,6 +196,12 @@ html {
     list-style: none;
     padding: 0 3.1875rem;
     letter-spacing: .0094rem;
+    overflow: auto;
+}
+
+
+.header-nav-item {
+    overflow: auto;
 }
 
 .header-nav-item:not(:last-child) {
@@ -206,12 +220,20 @@ html {
     align-items: center;
     gap: .625rem;
     margin-right: 3.125rem;
+    max-width: 10.7538rem;
+    max-height: 100%;
+    overflow: auto;
 }
 
 .phone-svg {
-    width: 1.5rem;
-    height: 1.5rem;
+    max-width: 1.5rem;
+    max-height: 1.5rem;
     fill: #5c8ee5;
+}
+
+.phone-svg_2 {
+    max-width: 2.4rem;
+    max-height: 2.4rem;
 }
 
 .phone-svg-button {
@@ -223,6 +245,8 @@ html {
 .header-phone-link {
     text-decoration: none;
     color: inherit;
+    overflow-wrap: break-word;
+    overflow-y: auto;
 }
 
 .header-button {
@@ -241,6 +265,8 @@ html {
     width: 17.6875rem;
     padding-left: 3.0625rem;
     letter-spacing: .0313rem;
+    overflow-y: auto;
+
 }
 
 .buttonc {
@@ -273,6 +299,7 @@ html {
     z-index: 1;
     color: #fff;
     padding-left: 1.6875rem;
+    overflow: auto;
 }
 
 .header-title {
@@ -282,6 +309,7 @@ html {
     line-height: 120%;
     margin: 1.3125rem 0rem;
     letter-spacing: .0375rem;
+    overflow-wrap: break-word;
 }
 
 .header-text {
@@ -292,6 +320,7 @@ html {
     line-height: 160%;
     margin: 2.5rem 0rem;
     letter-spacing: 0.007rem;
+    word-break: break-word;
 }
 
 .hide-swiper {
@@ -330,6 +359,7 @@ html {
     font-weight: 400;
     line-height: 160%;
     margin-top: 1.25rem;
+    word-break: break-word;
 }
 
 .hide-swiper-section-light {
@@ -349,6 +379,8 @@ html {
     line-height: 120%;
     margin-top: 1.5625rem;
     margin-bottom: 3.125rem;
+    min-width: 0;
+    word-break: break-all;
 }
 
 .steps {
@@ -357,6 +389,7 @@ html {
     gap: 1.875rem;
     padding: 0;
     letter-spacing: 0rem;
+
 }
 
 .steps-item {
@@ -370,6 +403,8 @@ html {
     line-height: 120%;
     display: flex;
     align-items: center;
+    min-width: 0;
+    overflow: auto;
 }
 
 .steps-num:after {
@@ -387,6 +422,7 @@ html {
     margin-top: 2.25rem;
     margin-bottom: .625rem;
     letter-spacing: -0.0563rem;
+    word-break: break-all;
 }
 
 .steps-text {
@@ -396,6 +432,7 @@ html {
     line-height: 160%;
     margin-top: .625rem;
     margin-bottom: 1.25rem;
+    overflow-wrap: break-word;
 }
 
 .steps-link {
@@ -406,6 +443,8 @@ html {
     line-height: 160%;
     text-decoration: none;
     font-weight: 600;
+    min-width: 0;
+    overflow: auto;
 }
 
 .steps-link:before {
@@ -580,6 +619,7 @@ html {
 
     .header-links {
         letter-spacing: 0.2px;
+        
     }
 
     .mobile-separator {
@@ -626,6 +666,7 @@ html {
         line-height: 160%;
         font-style: normal;
         letter-spacing: 0.005rem;
+        word-break: break-all;
     }
 
 
@@ -636,6 +677,7 @@ html {
         font-weight: 400;
         line-height: 160%;
         text-decoration: none;
+        word-break: break-all;
     }
 
 

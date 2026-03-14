@@ -114,7 +114,7 @@
   </symbol>
 
   <symbol viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"  fill="none"
+    xmlns:xlink="http://www.w3.org/1999/xlink" fill="none"
     customFrame="#000000" id="arrow-prev">
     <rect id="arrow" width="36.000000" height="24.000000" x="0.000000" y="0.000000"
       fill="rgb(255,255,255)" fill-opacity="0" />
@@ -125,7 +125,7 @@
   </symbol>
 
   <symbol viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"  fill="none"
+    xmlns:xlink="http://www.w3.org/1999/xlink" fill="none"
     customFrame="#000000" id="arrow-next">
     <rect id="arrow" width="36.000000" height="24.000000" x="0.000000" y="0.000000"
       fill="rgb(255,255,255)" fill-opacity="0" transform="matrix(-1,5.34378e-24,5.34378e-24,1,36,0)" />
