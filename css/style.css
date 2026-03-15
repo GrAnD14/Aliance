@@ -639,8 +639,7 @@ html {
         line-height: 160%;
         margin-top: 30px;
         border-top: 1px solid var(--sep, rgba(235, 235, 240, 1));
-        -webkit-text-decoration-line: underline;
-                text-decoration-line: underline;
+        text-decoration-line: underline;
         width: 100%;
         padding-top: 3rem;
     }
@@ -859,8 +858,6 @@ html {
 
     .container_2 {
         width: auto;
-        height: -webkit-fit-content;
-        height: -moz-fit-content;
         height: fit-content;
     }
 
@@ -871,8 +868,6 @@ html {
     .hide-swiper-section-light {
         display: block;
         width: auto;
-        height: -webkit-fit-content;
-        height: -moz-fit-content;
         height: fit-content;
     }
 
@@ -881,7 +876,7 @@ html {
         display: none;
         flex-wrap: nowrap;
         gap: 31px;
-
+        padding-left: 33px;
     }
 
     .steps-item {
