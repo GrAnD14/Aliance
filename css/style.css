@@ -327,6 +327,10 @@ html {
     display: none;
 }
 
+.hide-swiper_2 {
+    display: none;
+}
+
 .header-features {
     position: relative;
     display: flex;
@@ -382,6 +386,10 @@ html {
     margin-bottom: 3.125rem;
     min-width: 0;
     word-break: break-all;
+}
+
+#swiper_css {
+    display: none;
 }
 
 .steps {
@@ -793,11 +801,14 @@ html {
     }
 
 
-
     .hide-swiper {
         display: block;
-
     }
+
+
+
+
+
 
 
     .slider-buttons {
@@ -817,10 +828,10 @@ html {
 
     .slider-buttons_2 {
         display: flex;
-        justify-self: end;
+        justify-self: flex-start;
         height: 4rem;
-        margin-right: 15px;
-        margin-top: 8px;
+        margin-left: 226px;
+        margin-top: 42px;
     }
 
 
@@ -856,31 +867,33 @@ html {
         height: auto;
     }
 
-    .container_2 {
-        width: auto;
-        height: fit-content;
-    }
-
     .section {
         margin-top: 11rem;
+        width: 100%;
     }
 
-    .hide-swiper-section-light {
-        display: block;
-        width: auto;
+    .container_2 {
+        width: 100%;
         height: fit-content;
+    }
+
+    #swiper_css {
+        display: block;
+        width: 660px;
     }
 
 
     .steps {
         display: none;
         flex-wrap: nowrap;
-        gap: 31px;
-        padding-left: 33px;
+        gap: 0;
+
+
     }
 
+
     .steps-item {
-        min-width: 300px;
+        width: 30rem;
 
 
     }
@@ -906,6 +919,8 @@ html {
     .steps-text {
         font-size: 1.4rem;
         letter-spacing: 0.2px;
+        padding: 0 3px;
+        display: block;
     }
 
     .steps-link {
