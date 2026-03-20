@@ -892,6 +892,8 @@ html {
     }
 
 
+
+
     .steps-item {
         width: 30rem;
 
@@ -900,6 +902,10 @@ html {
 
     .steps-num {
         font-size: 4.8rem;
+    }
+
+    .steps-num:after {
+        width: 77%;
     }
 
 
