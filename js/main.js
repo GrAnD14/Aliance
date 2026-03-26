@@ -6,6 +6,7 @@ const moblines = document.querySelector(".mobile-lines");
 const moblines1 = document.querySelector(".mobile-lines:nth-child(1)");
 const moblines2 = document.querySelector(".mobile-lines:nth-child(2)");
 const moblines3 = document.querySelector(".mobile-lines:nth-child(3)");
+const hideswiper_2 = document.querySelector(".hide-swiper_2");
 
 const lightOn = (even) => {
   navbar.classList.add("navbar-light");
@@ -29,6 +30,10 @@ const burger = (x) => {
   moblines1.style.transform = "translateY(0px) rotate(0deg)";
   moblines2.style.display = "block";
   moblines3.style.transform = "translateY(0px) rotate(0deg)";
+};
+
+const hs66rem = (hw) => {
+  hideswiper_2.style.width = "66rem";
 };
 
 window.addEventListener("scroll", () => {
@@ -69,7 +74,7 @@ const swiper = new Swiper(".swiper", {
     },
 
     425: {
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
 
     768: {
@@ -77,3 +82,7 @@ const swiper = new Swiper(".swiper", {
     },
   },
 });
+
+if (window.innerWidth < 768) {
+  hs66rem();
+}

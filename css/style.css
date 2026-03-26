@@ -647,6 +647,7 @@ html {
         line-height: 160%;
         margin-top: 30px;
         border-top: 1px solid var(--sep, rgba(235, 235, 240, 1));
+        -webkit-text-decoration-line: underline;
         text-decoration-line: underline;
         width: 100%;
         padding-top: 3rem;
@@ -805,6 +806,11 @@ html {
         display: block;
     }
 
+    .hide-swiper_2 {
+        display: block;
+        width: 81rem;
+        max-width: 100%;
+    }
 
 
 
@@ -825,6 +831,13 @@ html {
 
     }
 
+    .buttons_2 {
+        display: flex;
+        justify-content: flex-end;
+        max-width: 93vw;
+    }
+
+
 
     .slider-buttons_2 {
         display: flex;
@@ -834,12 +847,6 @@ html {
         margin-top: 42px;
     }
 
-
-    .flex-end-buttons {
-        display: flex;
-        align-items: end;
-
-    }
 
     .slider-buttons_2 .swiper-button-prev,
     .slider-buttons_2 .swiper-button-next {
@@ -867,19 +874,25 @@ html {
         height: auto;
     }
 
+
+
     .section {
         margin-top: 11rem;
         width: 100%;
+        overflow: hidden;
+
     }
 
     .container_2 {
-        width: 100%;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
         height: fit-content;
     }
 
     #swiper_css {
         display: block;
-        width: 660px;
+
+
     }
 
 
@@ -895,10 +908,10 @@ html {
 
 
     .steps-item {
-        width: 30rem;
 
-
+        max-width: 38rem;
     }
+
 
     .steps-num {
         font-size: 4.8rem;
