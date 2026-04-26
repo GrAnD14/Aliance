@@ -1135,4 +1135,16 @@ html {
         margin: 0;
     }
 
+    #card-title-trade_1 {
+        position: absolute; 
+        left: 14rem; 
+        top: -9.7rem;
+    }
+
+    #card-title-trade_2 {
+        position: absolute; 
+        left: 14rem; 
+        top: -9.5rem;
+    }
+
 }
