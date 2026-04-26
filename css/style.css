@@ -58,7 +58,7 @@ html {
 
 .header.header-image {
     background-image: url("../images/main_img.jpg");
-
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center left;
     position: relative;
@@ -692,6 +692,76 @@ html {
 }
 
 
+@media (max-width: 1300px) {
+    html {
+        font-size: 14px;
+    }
+
+    .header-logo {
+        padding: 1.5625vw 2vw;
+    }
+
+    .header-nav {
+        padding: 0px 1vw;
+    }
+
+    .header-nav-item:not(:last-child) {
+
+        margin-right: 4%;
+    }
+
+
+    .header-nav-link {
+
+        font-size: 12px;
+        /* margin-right: 1.625vw; */
+        max-width: 18vw;
+    }
+
+    .tel-number {
+
+        font-size: 11px;
+    }
+
+    .header-button {
+        font-size: 10px;
+        gap: 0.625vw;
+        width: 11.7875vw;
+        padding-left: 0.8vw;
+
+    }
+
+    .header-phone {
+        margin-right: 1.625vw;
+        max-width: 11.7538vw;
+    }
+
+    .buttonc {
+        font-size: 11px;
+    }
+
+    .header-text {
+        font-size: 12px;
+    }
+
+    .header-features-text {
+        font-size: 11px;
+    }
+
+    .steps-title {
+        font-size: 14px;
+    }
+
+    .steps-text {
+        font-size: 11px;
+    }
+
+    .card-text {
+        font-size: 11px;
+    }
+
+}
+
 @media (max-width: 992px) {
     html {
         font-size: 10px;
@@ -1008,9 +1078,9 @@ html {
     }
 
     .container_4 {
-         width: 67.3rem;
+        width: 67.3rem;
         padding-left: 0;
-        
+
     }
 
     #swiper_css {
@@ -1110,24 +1180,24 @@ html {
         padding: 4.5rem 2rem;
         height: 27rem;
         gap: 0rem;
-        
+
     }
 
     .texts-block-card-container_4 {
-        
-    width: 110%;
-    padding-right: 0;
-    padding-bottom: 0;
-    position: relative;
-    padding-left: 0.9rem;
-    padding-top: 2.4rem;
-}
+
+        width: 110%;
+        padding-right: 0;
+        padding-bottom: 0;
+        position: relative;
+        padding-left: 0.9rem;
+        padding-top: 2.4rem;
+    }
 
     .card-container_4-imgs-container {
         width: 12rem;
         height: 7.6rem;
     }
-    
+
 
     .section-title {
         font-size: 3.67rem;
@@ -1136,14 +1206,14 @@ html {
     }
 
     #card-title-trade_1 {
-        position: absolute; 
-        left: 14rem; 
+        position: absolute;
+        left: 14rem;
         top: -9.7rem;
     }
 
     #card-title-trade_2 {
-        position: absolute; 
-        left: 14rem; 
+        position: absolute;
+        left: 14rem;
         top: -9.5rem;
     }
 
