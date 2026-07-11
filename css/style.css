@@ -1,4 +1,4 @@
-* {
+﻿* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -431,7 +431,7 @@ html {
 }
 
 .section {
-    padding-top: 7.8875vw;
+    padding-top: 8.8875vw;
     padding-left: 1.3125vw;
 }
 
@@ -442,8 +442,8 @@ html {
     font-family: "Bebas Neue Book";
     font-size: 3.16vw;
     line-height: 120%;
-    margin-top: 1.1625vw;
-    margin-bottom: 2.625vw;
+    margin-top: 1.7625vw;
+    /* margin-bottom: 2.625vw; */
     min-width: 0;
     word-break: break-all;
     /* letter-spacing: 0vw; */
@@ -568,6 +568,7 @@ html {
 
         .card-title {
             color: var(--main, rgba(92, 142, 230, 1));
+            grid-area: title;
         }
 
     }
@@ -619,13 +620,28 @@ html {
 
 
 .card-text {
+    display: inline-block;
     color: var(--txt2, rgba(130, 138, 153, 1));
     font-family: "Noto Sans";
     font-style: Regular;
     font-size: 0.9vw;
     font-weight: 400;
     line-height: 160%;
-    margin-top: 0.575vw;
+    margin-bottom: 5.575vw;
+    width: 88%;
+    grid-area: text;
+}
+
+.card-text_2 {
+    display: inline-block;
+    color: var(--txt2, rgba(130, 138, 153, 1));
+    font-family: "Noto Sans";
+    font-style: Regular;
+    font-size: 0.9vw;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 5.575vw;
+    width: 88%;
 }
 
 .cards-container_4 {
@@ -638,14 +654,46 @@ html {
 }
 
 .card-container_4 {
-    display: flex;
-    gap: 1.4vw;
-    align-items: center;
-    flex-basis: 50%;
-    padding: 1.125vw 2.125vw;
+    display: grid;
     border: 1px solid var(--sep, rgba(235, 235, 240, 1));
     cursor: pointer;
-    height: 14.7vw;
+    width: 50%;
+    height: 15vw;
+    grid-template-columns: 273px 1fr;
+    grid-template-rows: 133px 2fr 2fr;
+    align-items: center;
+    grid-template-areas:
+        "img-logo title"
+        "img-logo text"
+        "img-logo text";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     &:hover {
@@ -672,8 +720,9 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 16.5vw;
     height: 11.25vw;
+    grid-area: img-logo;
+    /* align-items: end; */
 }
 
 #triangle:hover {
@@ -684,12 +733,6 @@ html {
     content: url("../images/own-trademarks/logo-img-blue.svg")
 }
 
-.texts-block-card-container_4 {
-    width: 100%;
-    /* padding-right: 3.2625vw; */
-    /* padding-right: 1.875vw; */
-    padding-bottom: 0.6vw;
-}
 
 
 @media (max-width: 1300px) {
@@ -758,6 +801,73 @@ html {
 
     .card-text {
         font-size: 11px;
+    }
+
+    .card-container_4 {
+        width: 100%;
+        height: 44%;
+        grid-template-columns: 138px 1fr;
+        grid-template-rows: 133px 2fr 2fr;
+    }
+
+    #card-title-trade_1 {
+        display: inline-block;
+        margin: 0 44px 38px;
+    }
+
+    #card-title-trade_2 {
+        display: inline-block;
+        margin: 0 44px 38px;
+    }
+
+    #title-width {
+        width: 100%;
+        line-height: 148%;
+    }
+
+    #text-width2 {
+        width: 95%;
+    }
+
+    .card-title {
+        font-size: 2.04rem;
+    }
+
+    .card-text {
+        font-size: 1.45rem;
+        padding: 0.5rem 0rem;
+        line-height: 149%;
+        margin-left: 37px;
+        margin-top: 12px;
+        grid-area: 2 / 1 / 4 / 3;
+        margin-bottom: 5.575vw;
+        width: 96%;
+
+    }
+
+    .cards-container_4 {
+        margin: 0;
+        padding-top: 3rem;
+        width: 92vw;
+        max-width: 100%;
+        
+    }
+
+    .card-container_4 {
+        width: 100%;
+        height: 44%;
+        grid-template-columns: 138px 1fr;
+        grid-template-rows: 176px 2fr 2fr;
+    }
+
+
+
+    .card-container_4-imgs-container {
+        width: 12rem;
+        height: 7.6rem;
+        margin-bottom: 114px;
+        margin-left: 17px;
+
     }
 
 }
@@ -1199,7 +1309,22 @@ html {
         font-size: 1.45rem;
         padding: 0.5rem 0rem;
         line-height: 149%;
-        margin: 0;
+        margin-left: 19px;
+        margin-top: 12px;
+        grid-area: 2 / 1 / 4 / 3;
+        margin-bottom: 5.575vw;
+        width: 100%;
+    }
+
+    .card-text_2 {
+        font-size: 1.45rem;
+        padding: 0.5rem 0rem;
+        line-height: 149%;
+        margin-left: 0;
+        margin-top: 12px;
+        grid-area: 2 / 1 / 4 / 3;
+        margin-bottom: 5.575vw;
+        width: 100%;
     }
 
     .cards-container_4 {
@@ -1210,27 +1335,19 @@ html {
     }
 
     .card-container_4 {
-        flex-wrap: wrap;
-        flex-basis: 100%;
-        padding: 4.5rem 2rem;
-        height: 27rem;
-        gap: 0rem;
-
+        width: 100%;
+        height: 44%;
+        grid-template-columns: 138px 1fr;
+        grid-template-rows: 133px 2fr 2fr;
     }
 
-    .texts-block-card-container_4 {
 
-        width: 110%;
-        padding-right: 0;
-        padding-bottom: 0;
-        position: relative;
-        padding-left: 0.9rem;
-        padding-top: 2.4rem;
-    }
 
     .card-container_4-imgs-container {
         width: 12rem;
         height: 7.6rem;
+        margin-bottom: 95px;
+        margin-left: 17px;
     }
 
 
@@ -1241,15 +1358,13 @@ html {
     }
 
     #card-title-trade_1 {
-        position: absolute;
-        left: 14rem;
-        top: -9.7rem;
+        display: inline-block;
+        margin: 20px;
     }
 
     #card-title-trade_2 {
-        position: absolute;
-        left: 14rem;
-        top: -9.5rem;
+        display: inline-block;
+        margin: 0 22px 38px;
     }
 
 }
