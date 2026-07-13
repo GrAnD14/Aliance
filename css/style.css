@@ -52,7 +52,7 @@ html {
 
 .container_5 {
     display: flex;
-    width: 100vw;
+    width: 99vw;
     overflow: hidden;
     padding-top: 0w;
     gap: 7.5rem;
