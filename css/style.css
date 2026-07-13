@@ -50,6 +50,26 @@ html {
     padding-top: 0w;
 }
 
+.container_5 {
+    display: flex;
+    width: 100vw;
+    overflow: hidden;
+    padding-top: 0w;
+    gap: 7.5rem;
+    flex-wrap: wrap;
+}
+
+.clients-text {
+    color: var(--txt2, rgba(130, 138, 153, 1));
+    font-family: "Noto Sans";
+    font-style: Regular;
+    font-size: 0.84vw;
+    font-weight: 400;
+    line-height: 161%;
+    margin-top: 1.7rem;
+    width: 36.7vw;
+}
+
 
 .header {
     min-height: 100vh;
@@ -346,7 +366,7 @@ html {
     background: #5C8EE5;
     width: 7.8vw;
     min-width: 6.25vw;
-    height: 1px;
+    height: 2px;
 }
 
 .header-content {
@@ -399,6 +419,12 @@ html {
     width: 75.125vw;
 }
 
+
+.img-head {
+    width: 43.8vw;
+    height: 34.4vw;
+}
+
 .header-features-item {
     padding: 1.26vw 2.3vw;
     border: 1px solid rgba(235, 235, 240, 0.2);
@@ -435,6 +461,12 @@ html {
     padding-left: 1.3125vw;
 }
 
+.section-attitude-towards-the-client {
+    padding-top: 12.1rem;
+}
+
+
+
 
 
 .section-title {
@@ -447,6 +479,20 @@ html {
     min-width: 0;
     word-break: break-all;
     /* letter-spacing: 0vw; */
+
+
+}
+
+.section-title_2 {
+    color: rgba(41, 45, 51, 1);
+    font-family: "Bebas Neue Book";
+    font-size: 3.16vw;
+    line-height: 120%;
+    margin-top: 3.7625vw;
+    /* margin-bottom: 2.625vw; */
+    min-width: 0;
+    word-break: break-all;
+    width: 19.3vw;
 }
 
 #swiper_css {
@@ -516,11 +562,62 @@ html {
     overflow: auto;
 }
 
+.steps-link_2 {
+    display: flex;
+    align-items: center;
+    color: rgba(92, 142, 230, 1);
+    font-size: 0.84vw;
+    line-height: 160%;
+    text-decoration: none;
+    font-weight: 600;
+    min-width: 0;
+    overflow: auto;
+    margin-top: 2rem;
+}
+
+.steps-link_2_1 {
+    display: none;
+    align-items: center;
+    color: rgba(92, 142, 230, 1);
+    font-size: 3.84vw;
+    line-height: 160%;
+    text-decoration: none;
+    font-weight: 600;
+    min-width: 0;
+    overflow: auto;
+    margin-top: 1rem;
+}
+
 .steps-link:hover {
     color: rgba(58, 113, 209, 1);
 }
 
+.steps-link_2:hover {
+    color: rgba(58, 113, 209, 1);
+}
+
+.steps-link_2_1:hover {
+    color: rgba(58, 113, 209, 1);
+}
+
+.steps-link_2_1:before {
+    content: "";
+    height: .0625vw;
+    background: rgba(92, 142, 230, 1);
+    min-width: 9.9vw;
+    margin-right: 1.25vw;
+
+}
+
 .steps-link:before {
+    content: "";
+    height: .0625vw;
+    background: rgba(92, 142, 230, 1);
+    min-width: 1.9vw;
+    margin-right: 1.25vw;
+}
+
+.steps-link_2:before {
     content: "";
     height: .0625vw;
     background: rgba(92, 142, 230, 1);
@@ -529,6 +626,10 @@ html {
 }
 
 .steps-link:before:hover {
+    background: rgba(58, 113, 209, 1);
+}
+
+.steps-link_2:before:hover {
     background: rgba(58, 113, 209, 1);
 }
 
@@ -734,6 +835,11 @@ html {
 }
 
 
+.side-container {
+    display: flex;
+}
+
+
 
 @media (max-width: 1300px) {
     html {
@@ -803,6 +909,16 @@ html {
         font-size: 11px;
     }
 
+    .clients-text {
+
+        font-size: 1.5vw;
+
+    }
+
+    .steps-link_2 {
+        font-size: 1.3vw;
+    }
+
     .card-container_4 {
         width: 100%;
         height: 44%;
@@ -812,12 +928,12 @@ html {
 
     #card-title-trade_1 {
         display: inline-block;
-        margin: 0 44px 38px;
+        margin: 2px 44px 68px;
     }
 
     #card-title-trade_2 {
         display: inline-block;
-        margin: 0 44px 38px;
+        margin: 2px 44px 68px;
     }
 
     #title-width {
@@ -850,7 +966,7 @@ html {
         padding-top: 3rem;
         width: 92vw;
         max-width: 100%;
-        
+
     }
 
     .card-container_4 {
@@ -1092,7 +1208,7 @@ html {
 
     .separate {
         width: 10rem;
-        height: 1px;
+        height: 2px;
     }
 
     .header-title {
@@ -1218,8 +1334,8 @@ html {
     }
 
     .container_3 {
-        width: 67.3rem;
-        padding-left: 1.1rem;
+        width: 195vw;
+        padding-left: 1.5rem;
     }
 
     .container_4 {
@@ -1274,7 +1390,7 @@ html {
     }
 
     .card {
-        width: 32.7rem;
+        width: 35rem;
         height: 42.9rem;
         padding: 1.6rem 3rem;
     }
@@ -1282,19 +1398,19 @@ html {
     .cards {
         padding-top: 3.3rem;
         flex-wrap: wrap;
-        min-width: 34.7rem;
+        min-width: 31.7rem;
         margin: 0;
     }
 
     .texts-block {
         padding: 0;
         /* padding-bottom: 1.4375vw; */
-        width: 107%;
+        width: 100%;
     }
 
     #title-width {
-        width: 100%;
-        line-height: 148%;
+        width: 99%;
+        line-height: 126%;
     }
 
     #text-width2 {
@@ -1302,29 +1418,30 @@ html {
     }
 
     .card-title {
-        font-size: 2.04rem;
+        font-size: 2.3rem;
     }
 
     .card-text {
-        font-size: 1.45rem;
+        font-size: 1.4rem;
+        letter-spacing: 0.02rem;
         padding: 0.5rem 0rem;
         line-height: 149%;
-        margin-left: 19px;
-        margin-top: 12px;
+        margin-left: 30px;
+        margin-top: 24px;
         grid-area: 2 / 1 / 4 / 3;
-        margin-bottom: 5.575vw;
-        width: 100%;
+        margin-bottom: 1.575vw;
+        width: 95%;
     }
 
     .card-text_2 {
-        font-size: 1.45rem;
+        font-size: 1.66rem;
         padding: 0.5rem 0rem;
-        line-height: 149%;
+        line-height: 139%;
         margin-left: 0;
-        margin-top: 12px;
+        margin-top: 1px;
         grid-area: 2 / 1 / 4 / 3;
         margin-bottom: 5.575vw;
-        width: 100%;
+        width: 95%;
     }
 
     .cards-container_4 {
@@ -1346,7 +1463,7 @@ html {
     .card-container_4-imgs-container {
         width: 12rem;
         height: 7.6rem;
-        margin-bottom: 95px;
+        margin-bottom: 100px;
         margin-left: 17px;
     }
 
@@ -1365,6 +1482,65 @@ html {
     #card-title-trade_2 {
         display: inline-block;
         margin: 0 22px 38px;
+    }
+
+    .img-head {
+        min-width: 37.5rem;
+        min-height: 30rem;
+        width: 100vw;
+        height: 65vw;
+    }
+
+    .container_5 {
+        gap: 5.2rem;
+    }
+
+    .section-title_2 {
+        color: rgba(41, 45, 51, 1);
+        font-family: "Bebas Neue Book";
+        font-size: 10.16vw;
+        line-height: 120%;
+        margin-top: 4.7625vw;
+        /* margin-bottom: 2.625vw; */
+        min-width: 0;
+        word-break: break-all;
+        min-width: 23rem;
+        width: 76vw;
+    }
+
+    .clients-text {
+        color: var(--txt2, rgba(130, 138, 153, 1));
+        font-family: "Noto Sans";
+        font-style: Regular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 161%;
+        margin-top: 0.7rem;
+        min-width: 34rem;
+        width: 81vw;
+    }
+
+    .steps-link_2 {
+        display: none;
+    }
+
+    .steps-link_2_1 {
+        display: flex;
+        align-items: center;
+        color: rgba(92, 142, 230, 1);
+        font-size: 1.5rem;
+        line-height: 160%;
+        text-decoration: none;
+        font-weight: 600;
+        min-width: 0;
+        overflow: auto;
+        margin-top: 1rem;
+        gap: 18px;
+    }
+
+    .clients-div {
+        padding-left: 2rem;
+        width: 98vw;
     }
 
 }
