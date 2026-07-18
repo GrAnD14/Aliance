@@ -687,7 +687,7 @@ html {
 }
 
 .swiper-slide.card-container_71 {
-    background-image: url("images/blob/first.png");
+    background-image: url("../images/blob/first.png");
     background-repeat: no-repeat;
     width: 44.0625rem;
     height: 20.8vw;
@@ -734,7 +734,7 @@ html {
 
 
 .swiper-slide.card-container_72 {
-    background-image: url("images/blob/second.png");
+    background-image: url("../images/blob/second.png");
     background-repeat: no-repeat;
     width: 44.0625rem;
     height: 20.8vw;
