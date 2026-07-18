@@ -7,6 +7,21 @@ const moblines1 = document.querySelector(".mobile-lines:nth-child(1)");
 const moblines2 = document.querySelector(".mobile-lines:nth-child(2)");
 const moblines3 = document.querySelector(".mobile-lines:nth-child(3)");
 const hideswiper_2 = document.querySelector(".hide-swiper_2");
+const button = document.querySelector(".header-button");
+
+button.addEventListener("click", async () => {
+
+  const response = await fetch(
+    "http://localhost:3000/users"
+  );
+
+  const users = await response.json();
+
+  document.querySelector(".header-text").innerHTML =
+    users.map(user => `${user.name}: ${user.text}`).join("<br>");
+
+});
+
 
 const lightOn = (even) => {
   navbar.classList.add("navbar-light");
@@ -37,9 +52,10 @@ const hs66rem = (hw) => {
 };
 
 window.addEventListener("scroll", () => {
-  this.scrollY > 1 && mobilebc.style.display === "none"
-    ? lightOn()
-    : lightOff();
+  
+  this.scrollY > 1 && mobilebc.style.display === "none" ?
+    lightOn() :
+    lightOff();
 
   if (this.scrollY > -1 && mobilebc.style.display === "block") {
     lightOn();
@@ -60,8 +76,9 @@ mobmenu.onclick = () => {
 };
 
 const swiper = new Swiper(".swiper", {
-  slidesPerView: 2,
+  slidesPerView: 1,
   speed: 400,
+  watchOverflow: false, 
   loop: true,
   navigation: {
     nextEl: ".swiper-button-next",
@@ -82,6 +99,10 @@ const swiper = new Swiper(".swiper", {
     },
   },
 });
+
+
+
+
 
 if (window.innerWidth < 768) {
   hs66rem();

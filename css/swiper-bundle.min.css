@@ -31,7 +31,6 @@
     padding: 0;
     position: relative;
     z-index: 1
-    
 }
 
 .swiper-vertical>.swiper-wrapper {
@@ -322,7 +321,7 @@
     justify-content: center;
     width: var(--swiper-navigation-size);
     z-index: 10;
-    
+
 
     &.swiper-button-disabled {
         cursor: auto;
@@ -351,8 +350,10 @@
 }
 
 .swiper-button-lock {
-    display: none
+    display: none;
 }
+
+
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -544,7 +545,7 @@
     left: var(--swiper-pagination-left, auto);
     right: var(--swiper-pagination-right, 8px);
     top: 50%;
-    transform: translate3d(0, -50%, 0); 
+    transform: translate3d(0, -50%, 0);
 
     .swiper-pagination-bullet {
         display: block;
