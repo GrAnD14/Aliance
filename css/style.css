@@ -232,15 +232,15 @@ html {
 .header-logo {
     display: flex;
     align-items: center;
-    padding: 1.5625vw 2.6125vw;
+    padding: 0;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
     height: 100%;
     /* justify-content: center; */
 }
 
 .logo-svg {
-    width: 7.3vw;
-    height: 2.75vw;
+    width: 15rem;
+    height: 3rem;
 }
 
 .header-nav {
@@ -713,6 +713,9 @@ html {
     font-weight: 400;
     line-height: 160%;
     width: 85.5%;
+    width: 87.5%;
+    z-index: 1;
+    font-size: 5.34rem;
     z-index: 1;
     font-size: 1.46vw;
 }
@@ -999,7 +1002,7 @@ html {
     font-size: 0.9vw;
     font-weight: 400;
     line-height: 160%;
-    width: 85.5%;
+    width: 87.5%;
 
 }
 
@@ -1296,9 +1299,11 @@ html {
     }
 
     .img-logo {
-        width: 11vw;
-        height: 10vw;
+        width: 45rem;
+        height: 31rem;
     }
+
+
 
     .cards {
         width: 77vw;
@@ -1327,9 +1332,9 @@ html {
 
     .mobile-menu {
         display: flex;
-        padding: 6.19vw 7.74vw;
+        padding: 6rem 8rem;
         border-right: 1px solid rgba(235, 235, 240, 0.2);
-        width: 8.06vw;
+        width: 21rem;
         height: 100%;
         flex-direction: column;
         justify-content: space-around;
@@ -1381,8 +1386,20 @@ html {
         padding-top: 5.16vw;
     }
 
+    .section-title_3 {
+        margin-top: 5rem;
+        font-size: 10rem;
+
+
+    }
+
     .submenu-text:not(:first-child) {
         margin-top: 2.32vw;
+    }
+
+
+    .category-sphere:not(:first-child) {
+        margin-top: 3.5rem;
     }
 
     .submenu-links-text {
@@ -1434,6 +1451,18 @@ html {
         margin-top: 5.16vw;
     }
 
+    .steps-link_2_1_2 {
+        gap: 4rem;
+        font-size: 4rem;
+    }
+
+    .steps-link_2_1_2:before {
+        content: "";
+        height: 1px;
+        background: rgba(92, 142, 230, 1);
+        min-width: 10.3vw;
+    }
+
     .mobile-info_2 {
         margin-top: 2.58vw;
     }
@@ -1483,8 +1512,8 @@ html {
     }
 
     .header-button {
-        width: 20.65vw;
-        padding: 5.65vw;
+        width: 20.7rem;
+        padding: 5rem;
     }
 
     .phone-svg-button {
@@ -1519,11 +1548,12 @@ html {
 
     .container {
         max-width: 100%;
+        min-width: 99rem;
         padding: 0 0 0 2.58vw;
     }
 
     .header-content {
-        padding-top: 7.54vw;
+        padding-top: 8rem;
         position: relative;
         z-index: 1;
         color: #fff;
@@ -1531,7 +1561,7 @@ html {
 
     .separate {
         width: 25.81vw;
-        height: 0.2vw;
+        height: 2px;
     }
 
     .big-blocks {
@@ -1543,30 +1573,50 @@ html {
     }
 
     .category-sphere {
-        font-size: 1.41vw;
-        margin-top: 4.13vw;
+        font-size: 3.7rem;
+        margin-top: 7rem;
+        gap: 5.25rem;
     }
 
     .header-title {
-        width: 67.5vw;
-        font-size: 12.39vw;
-        padding-top: 1.51vw;
-        margin: 0;
-        letter-spacing: 0.03vw;
+        width: 63rem;
+        font-size: 12rem;
+        margin: 4rem 0px;
+        letter-spacing: 0.4rem;
+        line-height: 15rem;
     }
 
     .header-text {
-        font-size: 3.61vw;
-        letter-spacing: 0.01vw;
-        padding-top: 2.58vw;
-        max-width: 55%;
+        font-size: 3.8rem;
+
+        padding-top: 1rem;
+        width: 89rem;
+    }
+
+    .swiper.swiper-blob {
+        width: 700px;
+        overflow: hidden;
+    }
+
+    .section.blob {
+        padding-top: 20.5rem;
+        width: 100%;
+        overflow: hidden;
+        padding-left: 0rem;
+    }
+
+    .container_7 {
+        width: 94vw;
+        margin: auto;
+        overflow: hidden;
+        padding-left: .9375vw;
+        padding-top: 2rem;
     }
 
     .buttonc {
-        font-size: 3.61vw;
-        padding: 5.16vw 22.71vw;
-        letter-spacing: 0.02vw;
-        margin-top: 5.52vw;
+        font-size: 3.8rem;
+        padding: 5rem 23rem;
+        margin-top: 5rem;
     }
 
     .hide-swiper,
@@ -1575,9 +1625,7 @@ html {
     }
 
     .hide-swiper {
-        min-width: 129.03vw;
-        max-width: 100%;
-        width: 198.71vw;
+        min-width: 129rem;
     }
 
     .section-attitude-towards-the-client {
@@ -1585,14 +1633,14 @@ html {
     }
 
     .hide-swiper_2 {
-        min-width: 167.74vw;
+        min-width: 175rem;
     }
 
     .slider-buttons {
         display: flex;
-        height: 11.61vw;
-        max-width: 93vw;
-        padding-top: 5.42vw;
+
+        max-width: 97vw;
+        margin-top: 5.6rem;
     }
 
     .swiper-button-prev,
@@ -1600,7 +1648,7 @@ html {
         height: 100%;
         flex-basis: 50%;
         border: 1px solid var(--sep_opacity, rgba(235, 235, 240, 0.2));
-        padding: 1.81vw;
+        padding: 1rem;
     }
 
     .buttons_2 {
@@ -1611,9 +1659,9 @@ html {
 
     .slider-buttons_2 {
         display: flex;
-        height: 15.48vw;
-        padding-left: 14.21vw;
-        padding-top: 3.93vw;
+        height: 16rem;
+        padding-left: 45rem;
+        padding-top: 11rem;
         min-width: 35%;
         max-width: 75%;
         overflow: hidden;
@@ -1629,16 +1677,15 @@ html {
 
     .header-features {
         display: none;
-        padding-top: 11.87vw;
-        padding-left: 0.52vw;
+        padding-top: 11rem;
         width: 201.29vw;
         margin: 0;
     }
 
     .header-features-item {
-        width: 41.29vw;
-        padding: 5.16vw 7.23vw;
-        max-width: 116.13vw;
+
+        padding: 7rem 9rem;
+        max-width: 65rem;
     }
 
     .sprite-icons {
@@ -1647,30 +1694,31 @@ html {
     }
 
     .header-features-text {
-        font-size: 3.61vw;
-        padding-top: 4.13vw;
-        margin: 0;
+        font-size: 3.8rem;
+        margin-top: 7rem;
+
     }
 
     .section {
-        padding-top: 26.06vw;
+        padding-top: 25.5rem;
         width: 100%;
         overflow: hidden;
-        padding-left: 3.87vw;
+        padding-left: 4rem;
     }
 
     .container_2,
     .container_3 {
         padding-left: 0;
+
     }
 
     .container_2 {
-        width: 173.68vw;
+        min-width: 96rem;
     }
 
     .container_3 {
-        width: 173.68vw;
-        padding-left: 3.87vw;
+        min-width: 96rem;
+        padding-left: 3rem;
     }
 
     .imgs-logo {
@@ -1678,12 +1726,50 @@ html {
     }
 
     .container_6 {
-        all: initial;
+
         width: 99vw;
     }
 
+    .slider-buttons_21 {
+
+        padding-left: 18rem;
+        padding-top: 6rem;
+        min-width: 54%;
+        max-width: 75%;
+
+    }
+
+    .card-text_2.card-text_21 {
+        display: block;
+    }
+
+    .swiper-slide.card-container_71 {
+        background-image: url("../images/blob/first.png");
+        background-repeat: no-repeat;
+        height: 51rem;
+
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        flex-basis: 344px;
+    }
+
+    .swiper-slide.card-container_72 {
+        background-image: url("../images/blob/second.png");
+        background-repeat: no-repeat;
+        height: 51rem;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        flex-basis: 344px;
+    }
+
     .container_4 {
-        width: 173.68vw;
+        width: 172rem;
         padding-left: 0;
     }
 
@@ -1697,30 +1783,46 @@ html {
     }
 
     .steps-item {
-        padding: 6.45vw 12.9vw 0 0;
+        padding: 6rem 4.9rem 0 0;
+
     }
 
     .steps-num {
-        font-size: 12.39vw;
+        font-size: 12.3rem;
     }
 
     .steps-title {
-        font-size: 5.16vw;
+        font-size: 5.1rem;
         margin: 0;
-        padding-top: 3.1vw;
+        padding-top: 4rem;
     }
 
     .steps-text {
-        font-size: 3.61vw;
-        padding: 0.81vw 0.1vw;
+        font-size: 3.5rem;
+        padding: 3rem 2rem;
         margin: 0;
     }
 
     .steps-link {
-        font-size: 3.87vw;
+        font-size: 3.9rem;
         margin: 0;
-        gap: 1.81vw;
-        padding-top: 3.87vw;
+        gap: 5rem;
+        padding-top: 3rem;
+    }
+
+    .card-title_2 {
+        width: 87.5%;
+        font-size: 5.34rem;
+        margin-bottom: 3rem;
+        line-height: 7rem;
+
+    }
+
+    .cards-container_7-block {
+
+        width: 91.7vw;
+
+        margin-top: 7rem;
     }
 
     .steps-link:before {
@@ -1728,21 +1830,29 @@ html {
     }
 
     .section.production {
-        padding-top: 26.06vw;
+        padding-top: 24rem;
         padding-left: 0;
     }
 
     .card {
-        width: 84.9vw;
-        height: 110.71vw;
-        padding: 4.13vw 7.74vw;
+        width: 90rem;
+        height: 113rem;
+        padding: 5rem 7rem;
     }
 
     .cards {
-        padding-top: 8.52vw;
+        padding-top: 8rem;
         flex-wrap: wrap;
-        margin: 0;
+        margin: auto;
+        width: 100rem;
     }
+
+    .card-text_2.card-text_21 {
+        font-size: 3.77rem;
+        line-height: 150%;
+        width: 100.5%;
+    }
+
 
     .texts-block {
         padding: 0;
@@ -1759,16 +1869,16 @@ html {
     }
 
     .card-title {
-        font-size: 5.93vw;
+        font-size: 5.3rem;
     }
 
     .card-text {
-        font-size: 3.61vw;
+        font-size: 3.7rem;
         letter-spacing: 0.02rem;
-        padding: 1.29vw 0;
+        padding: 6rem 5rem;
         line-height: 149%;
-        margin-left: 3.02vw;
-        margin-top: 2.42vw;
+        /* margin-left: 8.02vw; */
+        /* margin-top: 2.42vw; */
         grid-area: 2 / 1 / 4 / 3;
         width: 95%;
     }
@@ -1777,7 +1887,15 @@ html {
         width: 96%;
     }
 
+    .swiper-wrapper.cards-container_7 {
+        display: flex;
+        margin-top: 7.125rem;
+        gap: 1.875rem;
+        width: 1000px;
+    }
+
     .card-text_2 {
+        display: none;
         font-size: 3.61vw;
         padding: 1.29vw 0;
         line-height: 139%;
@@ -1790,17 +1908,17 @@ html {
 
     .cards-container_4 {
         margin: 0;
-        padding-top: 7.74vw;
-        width: 92vw;
+        padding-top: 7rem;
+        min-width: 92vw;
         max-width: 100%;
     }
 
     .card-container_4 {
         width: 100%;
         height: 44%;
-        grid-template-columns: 22.26vw 1fr;
-        grid-template-rows: 21.45vw 2fr 2fr;
-        padding-top: 5.16vw;
+        grid-template-columns: 22rem 1fr;
+        grid-template-rows: 21rem 2fr 2fr;
+        padding-top: 7rem;
     }
 
     .section.sphere {
@@ -1808,26 +1926,27 @@ html {
     }
 
     .card-container_4-imgs-container {
-        width: 30.97vw;
-        height: 19.61vw;
-        margin-bottom: 25.81vw;
-        margin-left: 1.71vw;
+        width: 37rem;
+        height: 19rem;
+        margin-bottom: 39rem;
     }
 
     .section-title {
-        font-size: 9.47vw;
-        padding-top: 4.39vw;
+        font-size: 9.7rem;
+        padding-top: 6rem;
         margin: 0;
     }
 
     #card-title-trade_1 {
+        font-size: 5rem;
         display: inline-block;
-        margin: 0 10.84vw 9.81vw;
+        margin: 12rem 2rem 16rem 21rem;
     }
 
     #card-title-trade_2 {
+        font-size: 5rem;
         display: inline-block;
-        margin: 0 10.84vw 9.81vw;
+        margin: 12rem 2rem 16rem 21rem;
     }
 
     .img-head {
@@ -1841,17 +1960,16 @@ html {
     }
 
     .container_5 {
-        all: initial;
-        gap: 13.42vw;
+        gap: 9rem;
         width: 100vw;
     }
 
     .section-title_2 {
         color: rgba(41, 45, 51, 1);
         font-family: "Bebas Neue Book";
-        font-size: 9.47vw;
+        font-size: 10rem;
         line-height: 120%;
-        margin-top: 4.76vw;
+        margin-top: 5rem;
         min-width: 0;
         word-break: break-all;
         width: 76vw;
@@ -1861,11 +1979,11 @@ html {
         color: var(--txt2, rgba(130, 138, 153, 1));
         font-family: "Noto Sans";
         font-style: Regular;
-        font-size: 1.41vw;
+        font-size: 3.8rem;
         font-weight: 400;
-        line-height: 161%;
+        line-height: 151%;
         margin-top: 1.81vw;
-        width: 81vw;
+        width: 98%;
     }
 
     .steps-link_2 {
@@ -1876,18 +1994,18 @@ html {
         display: flex;
         align-items: center;
         color: rgba(92, 142, 230, 1);
-        font-size: 3.87vw;
+        font-size: 4rem;
         line-height: 160%;
         text-decoration: none;
         font-weight: 600;
         min-width: 0;
         overflow: auto;
-        margin-top: 2.58vw;
-        gap: 1.81vw;
+        margin-top: 3rem;
+        gap: 4rem;
     }
 
     .clients-div {
-        padding-left: 4vw;
+        padding-left: 4rem;
         width: 98vw;
     }
 
