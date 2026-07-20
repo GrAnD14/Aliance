@@ -450,8 +450,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 13vw;
-    height: 10vw;
+    width: 12vw;
+    height: 9vw;
     border: 1px solid rgba(235, 235, 240, 1);
     cursor: pointer;
 
@@ -541,7 +541,7 @@ html {
 }
 
 .container_6 {
-    width: 99vw;
+    width: 77vw;
     margin: auto;
     overflow: hidden;
     padding-left: .9375vw;
@@ -552,7 +552,7 @@ html {
 .three-blocks {
     display: flex;
     flex-wrap: wrap;
-    width: 49%;
+    width: 58%;
 }
 
 .categories-sphere {
@@ -615,9 +615,7 @@ html {
     display: none;
 }
 
-.container_6 {
-    width: 76vw;
-}
+
 
 .section.sphere {
     padding-top: 9.375rem;
@@ -721,6 +719,19 @@ html {
 
 .card-text_2 {
     color: var(--white, rgba(255, 255, 255, 1));
+    font-family: "Noto Sans";
+    font-style: Regular;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 160%;
+    width: 85.5%;
+    z-index: 1;
+    margin-top: .625rem;
+    margin-bottom: 3.125rem;
+}
+
+.card-text_2.card-text_21 {
+    color: var(--txt2, rgba(130, 138, 153, 1));
     font-family: "Noto Sans";
     font-style: Regular;
     font-size: 1rem;
@@ -1150,6 +1161,11 @@ html {
         font-size: 11px;
     }
 
+    .card-text_2.card-text_21 {
+        font-size: 1vw;
+    }
+
+
     .steps-title {
         font-size: 21px;
     }
@@ -1284,11 +1300,21 @@ html {
         height: 10vw;
     }
 
+    .cards {
+        width: 77vw;
+    }
+
+    .card {
+        width: 25.6vw;
+        height: 35.8625vw;
+    }
+
 }
 
 @media (max-width: 992px) {
+
     html {
-        font-size: .625rem;
+        font-size: 1.008vw;
     }
 
     .header.header-image {
@@ -1296,14 +1322,14 @@ html {
     }
 
     .navbar {
-        height: 176px;
+        height: 17.74vw;
     }
 
     .mobile-menu {
         display: flex;
-        padding: 61.44px 76.8px;
+        padding: 6.19vw 7.74vw;
         border-right: 1px solid rgba(235, 235, 240, 0.2);
-        width: 80px;
+        width: 8.06vw;
         height: 100%;
         flex-direction: column;
         justify-content: space-around;
@@ -1313,7 +1339,7 @@ html {
 
     .mobile-lines {
         max-width: 100%;
-        height: 1px;
+        height: 0.101vw;
         background: #fff;
         transition: 0.2s;
     }
@@ -1328,36 +1354,35 @@ html {
         z-index: 999;
         background-color: #fff;
         width: 100%;
-        padding-left: 15px;
+        padding-left: 1.51vw;
         top: 0;
         left: 0;
     }
 
     .mobile-nav-headers {
-        margin-top: 115.2px;
-        padding-top: 79.36px;
+        margin-top: 11.61vw;
+        padding-top: 8vw;
     }
 
     .mobile-header-nav-item:not(:first-child) {
-        margin-top: 71.68px;
+        margin-top: 7.23vw;
     }
 
     .header-links {
-
         font-size: 3.8vw;
     }
 
     .submenu-header-links {
-        padding-left: 22px;
-        padding-top: 25px;
+        padding-left: 2.22vw;
+        padding-top: 2.52vw;
     }
 
     .icons-messangers {
-        padding-top: 51.2px;
+        padding-top: 5.16vw;
     }
 
     .submenu-text:not(:first-child) {
-        margin-top: 23.04px;
+        margin-top: 2.32vw;
     }
 
     .submenu-links-text {
@@ -1366,67 +1391,62 @@ html {
 
     .img-logo:last-child {
         display: none;
-
     }
-
-
-
-
 
     .mobile-separator {
         background: var(--sep, rgba(235, 235, 240, 1));
-        height: 1.6px;
+        height: 0.161vw;
         width: 100%;
-        margin-top: 48px;
+        margin-top: 4.84vw;
     }
 
     .phone-number-info {
         display: block;
         color: var(--txt, rgba(41, 45, 51, 1));
         font-family: Noto Sans;
-        font-size: 20px;
+        font-size: 2.02vw;
         font-weight: 600;
         line-height: 160%;
-        margin-top: 34px;
+        margin-top: 3.43vw;
         border-top: 1px solid var(--sep, rgba(235, 235, 240, 1));
         text-decoration-line: underline;
         width: 100%;
-        padding-top: 76.8px;
+        padding-top: 7.74vw;
     }
 
     .phone-svg_2 {
-        max-width: 25px;
-        max-height: 23px;
+        max-width: 2.52vw;
+        max-height: 2.32vw;
     }
 
     .phone-svg-button {
-        padding-left: 0
+        padding-left: 0;
     }
 
     .mobile-info_1,
     .mobile-info_2 {
         display: flex;
         align-items: center;
-        gap: 25.6px;
+        gap: 2.58vw;
     }
 
     .mobile-info_1 {
-        margin-top: 51.2px;
+        margin-top: 5.16vw;
     }
 
     .mobile-info_2 {
-        margin-top: 25.6px;
+        margin-top: 2.58vw;
     }
 
     .address-info,
     .mail-info {
         color: var(--txt, rgba(41, 45, 51, 1));
         font-family: Noto Sans;
-        font-size: 14px;
+        font-size: 1.41vw;
         font-weight: 400;
         line-height: 160%;
         word-break: break-all;
-        letter-spacing: .4px;
+        letter-spacing: 0.04vw;
     }
 
     .mail-info {
@@ -1435,14 +1455,14 @@ html {
 
     .icons-messangers {
         display: flex;
-        padding-top: 51.2px;
-        gap: 38.4px;
+        padding-top: 5.16vw;
+        gap: 3.87vw;
         align-items: center;
     }
 
     .phone-svg {
-        width: 61.44px;
-        height: 61.44px;
+        width: 6.19vw;
+        height: 6.19vw;
     }
 
     .header-logo {
@@ -1452,8 +1472,8 @@ html {
     }
 
     .logo-svg {
-        width: 307.2px;
-        height: 96.768px;
+        width: 30.97vw;
+        height: 9.76vw;
     }
 
     .header-nav,
@@ -1463,8 +1483,8 @@ html {
     }
 
     .header-button {
-        width: 204.8px;
-        padding: 56.064px;
+        width: 20.65vw;
+        padding: 5.65vw;
     }
 
     .phone-svg-button {
@@ -1473,12 +1493,12 @@ html {
     }
 
     .navbar-light {
-        height: 125.44px;
+        height: 12.65vw;
     }
 
     .navbar-light .mobile-menu {
-        padding: 41.216px 71.68px;
-        max-width: 80px;
+        padding: 4.16vw 7.23vw;
+        max-width: 8.06vw;
     }
 
     .navbar-light .mobile-lines {
@@ -1486,38 +1506,35 @@ html {
     }
 
     .navbar-light .header-button {
-        padding: 33.28px 74.24px;
+        padding: 3.35vw 7.48vw;
     }
 
     .navbar-light .header-logo {
-        padding-top: 12.8px;
+        padding-top: 1.29vw;
     }
 
     .header {
-        padding-top: 230.4px;
+        padding-top: 23.23vw;
     }
 
     .container {
-        min-width: 947.2px;
-        max-width: 2201.6px;
-        padding: 0px 0 0 25.6px;
+        max-width: 100%;
+        padding: 0 0 0 2.58vw;
     }
 
     .header-content {
-        padding-top: 74.752px;
+        padding-top: 7.54vw;
         position: relative;
         z-index: 1;
         color: #fff;
-
     }
 
     .separate {
-        width: 256px;
-        height: 2px;
+        width: 25.81vw;
+        height: 0.2vw;
     }
 
     .big-blocks {
-
         flex-wrap: wrap;
     }
 
@@ -1526,32 +1543,30 @@ html {
     }
 
     .category-sphere {
-        font-size: 14px;
-        margin-top: 40.96px;
+        font-size: 1.41vw;
+        margin-top: 4.13vw;
     }
 
     .header-title {
         width: 67.5vw;
-        min-width: 678.4px;
-        font-size: 122.88px;
-        padding-top: 15px;
+        font-size: 12.39vw;
+        padding-top: 1.51vw;
         margin: 0;
-        letter-spacing: .2992px;
+        letter-spacing: 0.03vw;
     }
 
     .header-text {
-        min-width: 824.32px;
-        font-size: 35.84px;
-        letter-spacing: .1008px;
-        padding-top: 25.6px;
+        font-size: 3.61vw;
+        letter-spacing: 0.01vw;
+        padding-top: 2.58vw;
         max-width: 55%;
     }
 
     .buttonc {
-        font-size: 35.84px;
-        padding: 51.2px 225.28px;
-        letter-spacing: .1904px;
-        margin-top: 54.72px;
+        font-size: 3.61vw;
+        padding: 5.16vw 22.71vw;
+        letter-spacing: 0.02vw;
+        margin-top: 5.52vw;
     }
 
     .hide-swiper,
@@ -1560,25 +1575,24 @@ html {
     }
 
     .hide-swiper {
-        min-width: 1280px;
+        min-width: 129.03vw;
         max-width: 100%;
-        width: 1971.2px;
+        width: 198.71vw;
     }
 
     .section-attitude-towards-the-client {
-        padding-top: 258.56px;
+        padding-top: 26.06vw;
     }
 
     .hide-swiper_2 {
-        min-width: 1664px;
+        min-width: 167.74vw;
     }
 
     .slider-buttons {
         display: flex;
-        height: 115.2px;
-        max-width: 70%;
-        padding-top: 53.76px;
+        height: 11.61vw;
         max-width: 93vw;
+        padding-top: 5.42vw;
     }
 
     .swiper-button-prev,
@@ -1586,7 +1600,7 @@ html {
         height: 100%;
         flex-basis: 50%;
         border: 1px solid var(--sep_opacity, rgba(235, 235, 240, 0.2));
-        padding: 17.92px;
+        padding: 1.81vw;
     }
 
     .buttons_2 {
@@ -1597,9 +1611,9 @@ html {
 
     .slider-buttons_2 {
         display: flex;
-        height: 153.6px;
-        padding-left: 141px;
-        padding-top: 39px;
+        height: 15.48vw;
+        padding-left: 14.21vw;
+        padding-top: 3.93vw;
         min-width: 35%;
         max-width: 75%;
         overflow: hidden;
@@ -1609,71 +1623,68 @@ html {
     .slider-buttons_2 .swiper-button-next {
         background: var(--main, rgba(92, 142, 230, 1));
         border: none;
-        padding: 8.6992px;
-        width: 153.6px;
+        padding: 0.88vw;
+        width: 15.48vw;
     }
 
     .header-features {
         display: none;
-        padding-top: 117.76px;
-        padding-left: 5.12px;
-        width: 1996.8px;
+        padding-top: 11.87vw;
+        padding-left: 0.52vw;
+        width: 201.29vw;
         margin: 0;
     }
 
     .header-features-item {
-        width: 409.6px;
-        padding: 51.2px 71.68px;
-        max-width: 1152px;
+        width: 41.29vw;
+        padding: 5.16vw 7.23vw;
+        max-width: 116.13vw;
     }
 
     .sprite-icons {
-        width: 102.4px;
-        height: 92.16px;
+        width: 10.32vw;
+        height: 9.29vw;
     }
 
     .header-features-text {
-        font-size: 35.84px;
-        padding-top: 40.96px;
+        font-size: 3.61vw;
+        padding-top: 4.13vw;
         margin: 0;
     }
 
     .section {
-        padding-top: 258.56px;
+        padding-top: 26.06vw;
         width: 100%;
         overflow: hidden;
-        padding-left: 38.4px;
+        padding-left: 3.87vw;
     }
 
     .container_2,
     .container_3 {
-        min-width: 882.688px;
         padding-left: 0;
     }
 
     .container_2 {
-        width: 1722.88px;
+        width: 173.68vw;
     }
 
     .container_3 {
-        width: 1722.88px;
-        padding-left: 38.4px;
+        width: 173.68vw;
+        padding-left: 3.87vw;
     }
 
     .imgs-logo {
-
-
-        width: 2048px;
+        width: 206.45vw;
     }
 
     .container_6 {
+        all: initial;
         width: 99vw;
     }
 
     .container_4 {
-        width: 1722.88px;
+        width: 173.68vw;
         padding-left: 0;
-
     }
 
     #swiper_css {
@@ -1686,30 +1697,30 @@ html {
     }
 
     .steps-item {
-        padding: 64px 128px 0 0;
+        padding: 6.45vw 12.9vw 0 0;
     }
 
     .steps-num {
-        font-size: 122.88px;
+        font-size: 12.39vw;
     }
 
     .steps-title {
-        font-size: 51.2px;
+        font-size: 5.16vw;
         margin: 0;
-        padding-top: 30.72px;
+        padding-top: 3.1vw;
     }
 
     .steps-text {
-        font-size: 35.84px;
-        padding: 8px 1px;
+        font-size: 3.61vw;
+        padding: 0.81vw 0.1vw;
         margin: 0;
     }
 
     .steps-link {
-        font-size: 38.4px;
+        font-size: 3.87vw;
         margin: 0;
-        gap: 18px;
-        padding-top: 38.4px;
+        gap: 1.81vw;
+        padding-top: 3.87vw;
     }
 
     .steps-link:before {
@@ -1717,26 +1728,24 @@ html {
     }
 
     .section.production {
-        padding-top: 258.56px;
+        padding-top: 26.06vw;
         padding-left: 0;
     }
 
     .card {
-        width: 842.24px;
-        height: 1098.24px;
-        padding: 40.96px 76.8px;
+        width: 84.9vw;
+        height: 110.71vw;
+        padding: 4.13vw 7.74vw;
     }
 
     .cards {
-        padding-top: 84.48px;
+        padding-top: 8.52vw;
         flex-wrap: wrap;
-        min-width: 811.52px;
         margin: 0;
     }
 
     .texts-block {
         padding: 0;
-        /* padding-bottom: 1.4375vw; */
         width: 100%;
     }
 
@@ -1750,40 +1759,38 @@ html {
     }
 
     .card-title {
-        font-size: 58.88px;
+        font-size: 5.93vw;
     }
 
     .card-text {
-        font-size: 35.84px;
-        letter-spacing: .02rem;
-        padding: 12.8px 0px;
+        font-size: 3.61vw;
+        letter-spacing: 0.02rem;
+        padding: 1.29vw 0;
         line-height: 149%;
-        margin-left: 30px;
-        margin-top: 24px;
+        margin-left: 3.02vw;
+        margin-top: 2.42vw;
         grid-area: 2 / 1 / 4 / 3;
-
         width: 95%;
     }
 
     .three-blocks {
-
         width: 96%;
     }
 
     .card-text_2 {
-        font-size: 35.84px;
-        padding: 12.8px 0px;
+        font-size: 3.61vw;
+        padding: 1.29vw 0;
         line-height: 139%;
         margin-left: 0;
-        margin-top: 1px;
+        margin-top: 0.1vw;
         grid-area: 2 / 1 / 4 / 3;
-        margin-bottom: 5.575vw;
+        margin-bottom: 5.62vw;
         width: 95%;
     }
 
     .cards-container_4 {
         margin: 0;
-        padding-top: 76.8px;
+        padding-top: 7.74vw;
         width: 92vw;
         max-width: 100%;
     }
@@ -1791,68 +1798,62 @@ html {
     .card-container_4 {
         width: 100%;
         height: 44%;
-        grid-template-columns: 220.8px 1fr;
-        grid-template-rows: 212.8px 2fr 2fr;
-        padding-top: 51.2px;
+        grid-template-columns: 22.26vw 1fr;
+        grid-template-rows: 21.45vw 2fr 2fr;
+        padding-top: 5.16vw;
     }
-
 
     .section.sphere {
-        padding-top: 258.56px;
-
+        padding-top: 26.06vw;
     }
-
 
     .card-container_4-imgs-container {
-        width: 307.2px;
-        height: 194.56px;
-        margin-bottom: 256px;
-        margin-left: 17px;
+        width: 30.97vw;
+        height: 19.61vw;
+        margin-bottom: 25.81vw;
+        margin-left: 1.71vw;
     }
 
-
     .section-title {
-        font-size: 93.952px;
-        padding-top: 43.52px;
+        font-size: 9.47vw;
+        padding-top: 4.39vw;
         margin: 0;
     }
 
     #card-title-trade_1 {
         display: inline-block;
-        margin: 0 107.52px 97.28px;
+        margin: 0 10.84vw 9.81vw;
     }
 
     #card-title-trade_2 {
         display: inline-block;
-        margin: 0 107.52px 97.28px
+        margin: 0 10.84vw 9.81vw;
     }
 
     .img-head {
-        min-width: 960px;
-        min-height: 768px;
+        min-height: 77.42vw;
         width: 100vw;
         height: 65vw;
     }
 
     .bk {
-        width: 143.36px;
+        width: 14.45vw;
     }
 
     .container_5 {
-        gap: 133.12px;
+        all: initial;
+        gap: 13.42vw;
         width: 100vw;
     }
 
     .section-title_2 {
         color: rgba(41, 45, 51, 1);
         font-family: "Bebas Neue Book";
-        font-size: 93.952px;
+        font-size: 9.47vw;
         line-height: 120%;
-        margin-top: 4.7625vw;
-        /* margin-bottom: 2.625vw; */
+        margin-top: 4.76vw;
         min-width: 0;
         word-break: break-all;
-        min-width: 588.8px;
         width: 76vw;
     }
 
@@ -1860,11 +1861,10 @@ html {
         color: var(--txt2, rgba(130, 138, 153, 1));
         font-family: "Noto Sans";
         font-style: Regular;
-        font-size: 14px;
+        font-size: 1.41vw;
         font-weight: 400;
         line-height: 161%;
-        margin-top: 17.92px;
-        min-width: 870.4px;
+        margin-top: 1.81vw;
         width: 81vw;
     }
 
@@ -1876,14 +1876,14 @@ html {
         display: flex;
         align-items: center;
         color: rgba(92, 142, 230, 1);
-        font-size: 38.4px;
+        font-size: 3.87vw;
         line-height: 160%;
         text-decoration: none;
         font-weight: 600;
         min-width: 0;
         overflow: auto;
-        margin-top: 25.6px;
-        gap: 18px;
+        margin-top: 2.58vw;
+        gap: 1.81vw;
     }
 
     .clients-div {
