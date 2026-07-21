@@ -99,7 +99,7 @@ html {
 .swiper-slide.card-container_71,
 .swiper-slide.card-container_72 {
     position: relative;
-    flex-basis: 47%;
+    flex-basis: 45.6rem;
 }
 
 .card-container_71::before,
@@ -681,7 +681,7 @@ html {
 }
 
 .swiper.swiper-blob {
-    width: 237vw;
+    width: 233vw;
 }
 
 .swiper-slide.card-container_71 {
@@ -835,7 +835,7 @@ html {
 
 .steps-link_2_1:before {
     content: "";
-    height: .0625vw;
+    height: 1px;
     background: rgba(92, 142, 230, 1);
     min-width: 9.9vw;
     margin-right: 1.25vw;
@@ -844,7 +844,7 @@ html {
 
 .steps-link_2_1_2:before {
     content: "";
-    height: .0625vw;
+    height: 1px;
     background: rgba(92, 142, 230, 1);
     min-width: 2.3vw;
     margin-right: 1.25vw;
@@ -852,7 +852,7 @@ html {
 
 .steps-link:before {
     content: "";
-    height: .0625vw;
+    height: 1px;
     background: rgba(92, 142, 230, 1);
     min-width: 1.9vw;
     margin-right: 1.25vw;
@@ -860,7 +860,7 @@ html {
 
 .steps-link_2:before {
     content: "";
-    height: .0625vw;
+    height: 1px;
     background: rgba(92, 142, 230, 1);
     min-width: 1.8vw;
     margin-right: 1.25vw;
@@ -1526,8 +1526,8 @@ html {
     }
 
     .navbar-light .mobile-menu {
-        padding: 4.16vw 7.23vw;
-        max-width: 8.06vw;
+        padding: 4.7vw 7vw;
+        max-width: 20.06vw;
     }
 
     .navbar-light .mobile-lines {
@@ -1594,7 +1594,9 @@ html {
     }
 
     .swiper.swiper-blob {
-        width: 700px;
+        width: 93vw;
+        max-width: 100%;
+
         overflow: hidden;
     }
 
@@ -1640,7 +1642,15 @@ html {
         display: flex;
 
         max-width: 97vw;
-        margin-top: 5.6rem;
+        margin-top: 21px;
+    }
+
+    .slider-buttons_21 .swiper-button-prev,
+    .slider-buttons_21 .swiper-button-next {
+        background: var(--main, rgba(92, 142, 230, 1));
+        border: none;
+        padding: 9px;
+        width: 6rem;
     }
 
     .swiper-button-prev,
@@ -1747,14 +1757,15 @@ html {
         background-image: url("../images/blob/first.png");
         background-repeat: no-repeat;
         height: 51rem;
-
         background-size: cover;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: end;
-        flex-basis: 344px;
+        flex-basis: 92vw;
     }
+
+
 
     .swiper-slide.card-container_72 {
         background-image: url("../images/blob/second.png");
@@ -1765,7 +1776,8 @@ html {
         flex-direction: column;
         align-items: center;
         justify-content: end;
-        flex-basis: 344px;
+        flex-basis: 92vw;
+
     }
 
     .container_4 {
@@ -1891,7 +1903,7 @@ html {
         display: flex;
         margin-top: 7.125rem;
         gap: 1.875rem;
-        width: 1000px;
+        width: 93vw;
     }
 
     .card-text_2 {
