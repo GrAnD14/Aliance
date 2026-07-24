@@ -684,6 +684,126 @@ html {
     width: 233vw;
 }
 
+
+.contact-block {
+    display: flex;
+    height: 100%;
+    background-color: #F0F2F5;
+}
+
+.section.contact {
+    position: relative;
+    overflow: hidden;
+    padding-left: 0;
+    height: 45rem;
+}
+
+.contact-input-group {
+    display: flex;
+    gap: 1.875rem;
+    margin-top: 3.125rem;
+
+}
+
+.input {
+    width: 405px;
+    height: 66px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px 10px 20px 30px;
+    box-sizing: border-box;
+    border: 1px solid var(--sep2, rgba(228, 228, 235, 1));
+    cursor: pointer;
+    background-color: #F0F2F5;
+    outline: none;
+}
+
+
+
+.input:focus~label {
+    top: -0.4375rem;
+    left: 1.75rem;
+    display: block;
+    background-color: #F0F2F5;
+}
+
+.input:focus::placeholder {
+    color: #F0F2F5;
+
+}
+
+.input:focus {
+    border: 1px solid var(--main, rgba(92, 142, 230, 1));
+}
+
+.buttonc.contact-button {
+    margin-top: 1.875rem;
+    height: 4.875rem;
+
+}
+
+
+
+
+.input-group {
+    position: relative;
+
+}
+
+.input-group>label {
+    position: absolute;
+    background: #fff;
+    color: var(--txt2, rgba(130, 138, 153, 1));
+    font-family: "Noto Sans";
+    font-style: Regular;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 160%;
+    display: none;
+}
+
+
+
+
+
+
+
+.contact-text-block {
+    margin-left: 818px;
+}
+
+#spray {
+    position: absolute;
+    top: 1.9375rem;
+}
+
+.notify-text {
+    width: 379px;
+    height: 38px;
+    color: var(--txt2, rgba(130, 138, 153, 1));
+    font-family: "Noto Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.contact-form-footer {
+    display: flex;
+    gap: 1.9375rem;
+}
+
+
+.contact-form-notify {
+    display: flex;
+    gap: 10px;
+    margin-top: 2.5625rem;
+}
+
+
+
+
 .swiper-slide.card-container_71 {
     background-image: url("../images/blob/first.png");
     background-repeat: no-repeat;
