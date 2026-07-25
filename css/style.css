@@ -689,6 +689,7 @@ html {
     display: flex;
     height: 100%;
     background-color: #F0F2F5;
+    max-width: 100%;
 }
 
 .section.contact {
@@ -702,12 +703,14 @@ html {
     display: flex;
     gap: 1.875rem;
     margin-top: 3.125rem;
-
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .input {
-    width: 405px;
-    height: 66px;
+    width: 25.3125rem;
+    height: 4.125rem;
+
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
@@ -741,7 +744,7 @@ html {
 .buttonc.contact-button {
     margin-top: 1.875rem;
     height: 4.875rem;
-
+    padding: 1.68rem 5.04rem;
 }
 
 
@@ -749,6 +752,7 @@ html {
 
 .input-group {
     position: relative;
+    max-width: 100%;
 
 }
 
@@ -771,20 +775,27 @@ html {
 
 
 .contact-text-block {
-    margin-left: 818px;
+    margin-left: 51.125rem;
+    padding-left: 4rem;
+    max-width: 100%;
 }
+
+
 
 #spray {
     position: absolute;
     top: 1.9375rem;
+    width: 48.375rem;
+    height: 77.4375rem;
 }
 
+
 .notify-text {
-    width: 379px;
-    height: 38px;
+    width: 23.6875rem;
+    height: 2.375rem;
     color: var(--txt2, rgba(130, 138, 153, 1));
     font-family: "Noto Sans";
-    font-size: 12px;
+    font-size: .75rem;
     font-weight: 400;
     line-height: 160%;
 }
@@ -797,7 +808,7 @@ html {
 
 .contact-form-notify {
     display: flex;
-    gap: 10px;
+    gap: .625rem;
     margin-top: 2.5625rem;
 }
 
@@ -1378,6 +1389,13 @@ html {
         flex-wrap: wrap;
     }
 
+    .contact-block {
+        display: flex;
+        height: 100%;
+        background-color: #F0F2F5;
+        max-width: 100%;
+    }
+
 
     .categories-sphere {
         flex-basis: 50%;
@@ -1419,8 +1437,8 @@ html {
     }
 
     .img-logo {
-        width: 45rem;
-        height: 31rem;
+        width: 11vw;
+        height: 9rem;
     }
 
 
@@ -1432,6 +1450,30 @@ html {
     .card {
         width: 25.6vw;
         height: 35.8625vw;
+    }
+
+    #spray {
+        width: 42.67vw;
+        height: 74.3vw;
+        top: 5.6vw;
+    }
+
+    .contact-text-block {
+        margin-left: 36.4vw;
+        /* padding-left: 4.37vw; */
+        max-width: 100%;
+    }
+
+    .input {
+        width: 23.9vw;
+    }
+
+    .contact-button {
+        padding: 2.3vw 5.8vw;
+    }
+
+    .notify-text {
+        width: 23vw;
     }
 
 }
@@ -1471,6 +1513,11 @@ html {
 
     .mobile-lines:nth-child(2) {
         max-width: 80%;
+    }
+
+    .img-logo {
+        width: 45rem;
+        height: 31rem;
     }
 
     .mobile-bc-white {
@@ -1851,6 +1898,10 @@ html {
         padding-left: 3rem;
     }
 
+    #spray {
+        display: none;
+    }
+
     .imgs-logo {
         width: 206.45vw;
     }
@@ -1955,6 +2006,13 @@ html {
         width: 91.7vw;
 
         margin-top: 7rem;
+    }
+
+    .input {
+        width: 91.3125rem;
+        height: 16.5rem;
+        gap: 10px;
+
     }
 
     .steps-link:before {
@@ -2069,6 +2127,7 @@ html {
         margin: 0;
     }
 
+
     #card-title-trade_1 {
         font-size: 5rem;
         display: inline-block;
@@ -2085,6 +2144,10 @@ html {
         min-height: 77.42vw;
         width: 100vw;
         height: 65vw;
+    }
+
+    .section.contact {
+        height: auto;
     }
 
     .bk {
@@ -2118,8 +2181,25 @@ html {
         width: 98%;
     }
 
+    .clients-text2 {
+        margin-top: 10px;
+        color: var(--txt2, rgba(130, 138, 153, 1));
+        font-family: "Noto Sans";
+        font-style: Regular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 160%;
+        width: 85%;
+    }
+
     .steps-link_2 {
         display: none;
+    }
+
+    .contact-text-block {
+        padding-left: 4rem;
+        margin-left: 0;
+        padding-top: 50px;
     }
 
     .steps-link_2_1 {
@@ -2140,5 +2220,51 @@ html {
         padding-left: 4rem;
         width: 98vw;
     }
+
+    .contact-input-group {
+        gap: 5.3rem;
+        margin-top: 8.125rem;
+        position: relative;
+    }
+
+    .input:focus~label {
+        top: -8px;
+        left: 27px;
+    }
+
+
+    .contact-form-footer {
+        flex-wrap: wrap;
+        gap: 7.9375rem;
+        margin-top: 0;
+    }
+
+
+    .buttonc.contact-button {
+        margin-top: 2.69rem;
+        height: 16.4rem;
+        padding: 1.68rem 28.7rem;
+    }
+
+    .notify-text {
+        width: 84.875rem;
+        height: 15.1rem;
+        color: var(--txt2, rgba(130, 138, 153, 1));
+        font-family: "Noto Sans";
+        font-size: 3.2rem;
+        font-weight: 400;
+        line-height: 160%;
+    }
+
+
+    .contact-form-notify {
+        margin-bottom: 13.3rem;
+        gap: 2.7rem;
+
+    }
+
+
+
+
 
 }
