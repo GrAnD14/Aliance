@@ -2317,6 +2317,12 @@ html {
         display: none;
     }
 
+    #triangle,
+    #logo-img {
+        width: 144px;
+        height: 144px;
+    }
+
     .container_5 {
         gap: 9rem;
         width: 100vw;
