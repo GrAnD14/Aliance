@@ -380,6 +380,46 @@ html {
     margin-top: .4375vw;
 }
 
+.mobile-info_1,
+.mobile-info_2 {
+    display: flex;
+    align-items: center;
+    gap: 2.58vw;
+}
+
+.footer-div {
+    padding-top: 3.125rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(235, 235, 240, 1);
+}
+
+.pni {
+    margin-top: 0;
+}
+
+.mi1,
+.mi2 {
+    gap: .625rem;
+}
+
+.mail-info {
+    text-decoration: none;
+    color: inherit;
+}
+
+.desktop-nav-headers {
+    display: flex;
+}
+
+.im {
+    gap: .9375rem;
+}
+
 
 .separate {
     background: #5C8EE5;
@@ -800,6 +840,16 @@ html {
     line-height: 160%;
 }
 
+.nt {
+    width: 23.6875rem;
+    height: 2.375rem;
+    color: var(--txt2, rgba(130, 138, 153, 1));
+    font-family: "Noto Sans";
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 160%;
+}
+
 .contact-form-footer {
     display: flex;
     gap: 1.9375rem;
@@ -1023,6 +1073,62 @@ html {
     width: 92vw;
 }
 
+.mnh {
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    height: 13rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-gap: 10.4375rem;
+}
+
+.mhni:not(:first-child) {
+    margin-top: 0;
+    list-style-type: none;
+}
+
+.submenu-text:not(:first-child) {
+    margin-top: 0.91vw;
+    letter-spacing: 0.009vw;
+}
+
+.footer-low-first {
+    display: flex;
+}
+
+.footer-low-second>p {
+    width: 4.2rem;
+    height: 2.375rem;
+    color: var(--txt2, rgba(130, 138, 153, 1));
+    font-family: "Noto Sans";
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.footer-low-second>img {
+    margin-top: 0.23rem;
+}
+
+.footer-low-second {
+    display: flex;
+    align-items: start;
+}
+
+.shl2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 8rem;
+    height: 10rem;
+    width: 42rem;
+}
+
+.shl2>li:nth-child(4) {
+    margin-top: 0;
+}
+
 .card {
     position: relative;
     display: flex;
@@ -1228,6 +1334,10 @@ html {
 
 .side-container {
     display: flex;
+}
+
+.clients-text2 {
+    width: 33.7vw;
 }
 
 
