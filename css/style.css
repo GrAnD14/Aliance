@@ -728,7 +728,7 @@ html {
 }
 
 .swiper.swiper-blob {
-    width: 233vw;
+    width: 115vw;
 }
 
 
@@ -1687,6 +1687,8 @@ html {
         padding-left: 1.5111vw;
         top: 0;
         left: 0;
+        max-height: 100vh;
+        overflow: scroll;
     }
 
     .mobile-nav-headers {
@@ -2314,7 +2316,8 @@ html {
     }
 
     footer {
-        display: none;
+        display: block;
+        overflow: hidden;
     }
 
     #triangle,
