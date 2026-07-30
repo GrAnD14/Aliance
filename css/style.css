@@ -147,8 +147,8 @@ html {
 
 .mobile-nav-headers {
     list-style: none;
-    margin-top: 3.5625vw;
-    padding-top: 2.4vw;
+    margin-top: 12.5625vw;
+    padding-top: 6.4vw;
 }
 
 .mobile-header-nav-link {
@@ -388,7 +388,7 @@ html {
 }
 
 .footer-div {
-    padding-top: 2.61vw;
+    padding-top: 2.2vw;
     padding-left: 12.5vw;
     padding-right: 12.5vw;
     padding-bottom: 2.604vw;
@@ -489,7 +489,7 @@ html {
     display: flex;
     margin-top: 1.7625vw;
     flex-wrap: wrap;
-    width: 40vw;
+    width: 45vw;
 
 }
 
@@ -526,6 +526,7 @@ html {
     word-break: break-all;
     display: inline-block;
     width: 100%;
+    height: 10%;
     /* letter-spacing: 0vw; */
 
 }
@@ -606,11 +607,36 @@ html {
     flex-basis: 50%;
 }
 
+.phone-number-info.footer-phone-number-info {
+    padding: initial;
+    font-size: 1.7vw;
+    font-weight: 600;
+    line-height: 160%;
+    margin-top: -0.125vw;
+    margin-left: 5vw;
+
+}
+
+.logo-svg.footer-logo-svg {
+    width: 15rem;
+    height: 4rem;
+}
+
+.phone-svg_2.footer-phone-svg_2 {
+    max-width: 1.4vw;
+    max-height: 1.4vw;
+}
+
+.footer-mobile-info_1,
+.footer-mobile-info_2 {
+    gap: 0.58vw;
+}
+
 .category-sphere {
     color: var(--txt, rgba(41, 45, 51, 1));
     font-family: "Noto Sans";
     font-style: Regular;
-    font-size: 1vw;
+    font-size: 0.84vw;
     font-weight: 400;
     line-height: 160%;
     display: flex;
@@ -665,7 +691,7 @@ html {
 
 
 .section.sphere {
-    padding-top: 7.813vw;
+    padding-top: 4.813vw;
 
 }
 
@@ -749,12 +775,13 @@ html {
 .contact-input-group {
     display: flex;
     gap: 1.563vw;
-    margin-top: 2.604vw;
+    margin-top: 3.604vw;
     flex-wrap: wrap;
     width: 100%;
 }
 
 .input {
+
     width: 21.094vw;
     height: 3.438vw;
 
@@ -790,8 +817,8 @@ html {
 
 .buttonc.contact-button {
     margin-top: 1.563vw;
-    height: 4.063vw;
-    padding: 1.4vw 4.2vw;
+    height: 3.2vw;
+    padding: 0.4vw 2.5vw;
 }
 
 
@@ -822,9 +849,9 @@ html {
 
 
 .contact-text-block {
-    margin-left: 42.604vw;
-    padding-left: 4rem;
+    margin-left: 43.604vw;
     max-width: 100%;
+    padding-top: 3vw;
 }
 
 
@@ -1072,6 +1099,10 @@ html {
     height: 100%;
 }
 
+.footer-low-second-mobile {
+    display: none;
+}
+
 .cards {
     margin-top: 2.8625vw;
     display: flex;
@@ -1131,7 +1162,7 @@ html {
     flex-wrap: wrap;
     column-gap: 6.667vw;
     height: 8.333vw;
-    width: 35vw;
+    width: 29vw;
 }
 
 .shl2>li:nth-child(4) {
@@ -1606,9 +1637,9 @@ html {
     }
 
     #spray {
-        width: 42.67vw;
-        height: 74.3vw;
-        top: 5.6vw;
+        width: 30.67vw;
+        height: 62.3vw;
+        top: 4.6vw;
     }
 
     .contact-text-block {
@@ -1648,6 +1679,21 @@ html {
 
     .footer-div {
         flex-direction: column;
+        align-items: start;
+        padding-left: 0;
+        padding-right: 0;
+        height: 85rem;
+    }
+
+    .logo-svg.footer-logo-svg {
+        width: 48rem;
+        height: 14rem;
+    }
+
+    .phone-number-info.footer-phone-number-info {
+        padding: initial;
+
+
     }
 
     .mobile-menu {
@@ -1684,17 +1730,13 @@ html {
         z-index: 999;
         background-color: #fff;
         width: 100%;
-        padding-left: 1.5111vw;
+        padding-left: 4.5111vw;
         top: 0;
         left: 0;
         max-height: 100vh;
         overflow: scroll;
     }
 
-    .mobile-nav-headers {
-        margin-top: 11.61vw;
-        padding-top: 8vw;
-    }
 
     .mobile-header-nav-item:not(:first-child) {
         margin-top: 7.23vw;
@@ -1705,8 +1747,8 @@ html {
     }
 
     .submenu-header-links {
-        padding-left: 2.222vw;
-        padding-top: 2.52222vw;
+        padding-left: 5.222vw;
+        padding-top: 6.52222vw;
     }
 
     .icons-messangers {
@@ -1714,8 +1756,9 @@ html {
     }
 
     .section-title_3 {
+        height: 25%;
         margin-top: 5rem;
-        font-size: 10rem;
+        font-size: 9.6rem;
 
 
     }
@@ -1748,7 +1791,7 @@ html {
         display: block;
         color: var(--txt, rgba(41, 45, 51, 1));
         font-family: Noto Sans;
-        font-size: 2.02vw;
+        font-size: 5.5vw;
         font-weight: 600;
         line-height: 160%;
         margin-top: 3.43vw;
@@ -1759,8 +1802,8 @@ html {
     }
 
     .phone-svg_2 {
-        max-width: 2.52vw;
-        max-height: 2.32vw;
+        max-width: 6.52vw;
+        max-height: 6.32vw;
     }
 
     .phone-svg-button {
@@ -1771,17 +1814,17 @@ html {
     .mobile-info_2 {
         display: flex;
         align-items: center;
-        gap: 2.58vw;
+        gap: 2.5rem;
+
+        margin-top: 4rem;
     }
 
-    .mobile-info_1 {
-        margin-top: 5.16vw;
-    }
 
     .steps-link_2_1_2 {
         gap: 4rem;
         font-size: 4rem;
     }
+
 
     .steps-link_2_1_2:before {
         content: "";
@@ -1790,15 +1833,12 @@ html {
         min-width: 10.3vw;
     }
 
-    .mobile-info_2 {
-        margin-top: 2.58vw;
-    }
 
     .address-info,
     .mail-info {
         color: var(--txt, rgba(41, 45, 51, 1));
         font-family: Noto Sans;
-        font-size: 1.41vw;
+        font-size: 4.41vw;
         font-weight: 400;
         line-height: 160%;
         word-break: break-all;
@@ -1811,9 +1851,22 @@ html {
 
     .icons-messangers {
         display: flex;
-        padding-top: 5.16vw;
-        gap: 3.87vw;
+        padding-top: 3rem;
+        gap: 3.8rem;
         align-items: center;
+    }
+
+    .footer-div-second {
+        height: 157rem;
+    }
+
+
+    .footer-low-first {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 4rem;
+        padding-top: 3rem;
+
     }
 
     .phone-svg {
@@ -1853,8 +1906,10 @@ html {
     }
 
     .navbar-light .mobile-menu {
-        padding: 4.7vw 7vw;
-        max-width: 20.06vw;
+        padding: 4vh 7vw;
+        width: 20vw;
+        height: 12vh;
+
     }
 
     .navbar-light .mobile-lines {
@@ -1928,10 +1983,14 @@ html {
     }
 
     .section.blob {
-        padding-top: 20.5rem;
+        padding-top: 16.5rem;
         width: 100%;
         overflow: hidden;
-        padding-left: 0rem;
+        padding-left: 0;
+    }
+
+    .section-title_4 {
+        height: 8%;
     }
 
     .container_7 {
@@ -2012,6 +2071,11 @@ html {
         width: 15.48vw;
     }
 
+    .phone-svg_2.footer-phone-svg_2 {
+        max-width: 7rem;
+        max-height: 7rem;
+    }
+
     .header-features {
         display: none;
         padding-top: 11rem;
@@ -2064,6 +2128,7 @@ html {
 
     .imgs-logo {
         width: 206.45vw;
+        margin-top: 12rem;
     }
 
     .container_6 {
@@ -2078,6 +2143,11 @@ html {
         min-width: 54%;
         max-width: 75%;
 
+    }
+
+    .footer-mobile-info_1,
+    .footer-mobile-info_2 {
+        margin-left: 4rem;
     }
 
     .card-text_2.card-text_21 {
@@ -2233,6 +2303,14 @@ html {
         width: 95%;
     }
 
+    .footer-low-second-mobile {
+        display: block;
+    }
+
+    .footer-cons-messangers {
+        padding-left: 4rem;
+    }
+
     .three-blocks {
         width: 96%;
     }
@@ -2269,6 +2347,15 @@ html {
         grid-template-columns: 22rem 1fr;
         grid-template-rows: 21rem 2fr 2fr;
         padding-top: 7rem;
+    }
+
+    .footer-low-second {
+        padding-left: 4rem;
+        align-items: center;
+    }
+
+    .footer-low-second-desktop {
+        display: none;
     }
 
     .section.sphere {
@@ -2308,6 +2395,7 @@ html {
 
     .section.contact {
         height: auto;
+        padding-top: 19rem;
     }
 
     .bk {
@@ -2361,7 +2449,7 @@ html {
         font-size: 14px;
         font-weight: 400;
         line-height: 160%;
-        width: 85%;
+        width: 95%;
     }
 
     .steps-link_2 {
@@ -2372,6 +2460,11 @@ html {
         padding-left: 4rem;
         margin-left: 0;
         padding-top: 50px;
+    }
+
+    .shl2 {
+        height: 54rem;
+        width: 60rem;
     }
 
     .steps-link_2_1 {
@@ -2393,6 +2486,37 @@ html {
         width: 98vw;
     }
 
+    .footer-div-third {
+        flex-wrap: wrap;
+        height: 31rem;
+    }
+
+    .footer-low-second>p {
+        width: 36rem;
+        height: 5rem;
+        color: var(--txt2, rgba(130, 138, 153, 1));
+        font-family: "Noto Sans";
+        font-size: 3.2rem;
+        font-weight: 400;
+        line-height: 160%;
+        padding-top: 0;
+    }
+
+    .footer-low-second>img {
+        width: 14rem;
+        height: 3rem;
+    }
+
+    .mnh {
+        margin-top: 13rem;
+        margin-left: 4rem;
+        display: flex;
+        height: 232rem;
+        flex-wrap: wrap;
+        flex-direction: column;
+        column-gap: 8.698vw;
+    }
+
     .contact-input-group {
         gap: 5.3rem;
         margin-top: 8.125rem;
@@ -2411,6 +2535,21 @@ html {
         margin-top: 0;
     }
 
+    .footer-header-logo {
+        padding: 2rem;
+    }
+
+    .phone-number-info.footer-phone-number-info {
+        padding: initial;
+        font-size: 7.5rem;
+        font-weight: 600;
+        line-height: 160%;
+        margin-left: 4rem;
+        margin-top: 7rem;
+
+    }
+
+
 
     .buttonc.contact-button {
         margin-top: 2.69rem;
@@ -2420,7 +2559,7 @@ html {
 
     .notify-text {
         width: 84.875rem;
-        height: 15.1rem;
+        height: 8.1rem;
         color: var(--txt2, rgba(130, 138, 153, 1));
         font-family: "Noto Sans";
         font-size: 3.2rem;
