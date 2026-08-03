@@ -13,7 +13,20 @@
 
 body {
     font-family: "Noto Sans", sans-serif;
+    position: relative;
+}
 
+.body_before::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 11111;
+    background: rgba(41, 45, 51, 0.5);
+    opacity: 60%;
 }
 
 html {
@@ -765,6 +778,7 @@ html {
     max-width: 100%;
 }
 
+
 .section.contact {
     position: relative;
     overflow: hidden;
@@ -795,6 +809,10 @@ html {
     cursor: pointer;
     background-color: #F0F2F5;
     outline: none;
+}
+
+.input:focus {
+    cursor: auto;
 }
 
 
@@ -855,6 +873,11 @@ html {
 }
 
 
+.contact-text-block.modal-open-contact-text-block {
+    margin-left: 0;
+}
+
+
 
 #spray {
     position: absolute;
@@ -884,9 +907,88 @@ html {
     line-height: 160%;
 }
 
+
+.modal-open {
+    display: block;
+    position: fixed;
+    width: 23.958333vw;
+    height: 32.65625vw;
+    background-color: rgba(250, 251, 252, 1);
+    z-index: 11111;
+    left: 39.166667vw;
+    top: 8.958333vw;
+    bottom: 8.958333vw;
+    right: 39.166667vw;
+}
+
+.section-title_3.section-title_4.modal-open-section-title_4 {
+    font-size: 2.5vw;
+}
+
+.clients-text.clients-text2.modal-open-clients-text2 {
+    font-size: 0.833333vw;
+    width: 19.6875vw;
+}
+
+.contact-input-group.modal-open-contact-input-group {
+    margin-top: 1.5625vw;
+}
+
+.section-title_3.section-title_4.modal-open-section-title_4 {
+    margin-top: 0;
+}
+
+.contact-text-block.modal-open-contact-text-block {
+    padding-top: 2.083333vw;
+    padding-left: 2.604167vw;
+    padding-right: 2.604167vw;
+}
+
+.buttonc.contact-button.modal-open-contact-button {
+    margin-top: 1.5625vw;
+    height: 3.229167vw;
+    padding: 0.833333vw 5.583333vw;
+
+}
+
+.input.modal-open-input {
+    width: 18.75vw;
+    height: 3.4375vw;
+}
+
+.notify-text.modal-open-notify-text {
+    width: 18.697917vw;
+    height: 1.979167vw;
+}
+
+.contact-form-notify.modal-open-contact-form-notify {
+    margin-top: 0;
+}
+
 .contact-form-footer {
     display: flex;
-    gap: 1.9375rem;
+    gap: 1.614583vw;
+}
+
+.modal-open-close {
+    box-sizing: border-box;
+    border: 1px solid var(--sep, rgba(235, 235, 240, 1));
+    width: 2.604167vw;
+    height: 2.604167vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover {
+        background: rgb(235, 235, 237);
+    }
+}
+
+
+.contact-form-footer.modal-open-contact-form-footer {
+    flex-wrap: wrap;
+
 }
 
 
@@ -1449,6 +1551,12 @@ html {
         max-width: 11.7538vw;
     }
 
+    .contact-form-notify.modal-open-contact-form-notify {
+        margin-top: 0;
+        max-width: 100%;
+        height: 10rem;
+    }
+
     .buttonc {
         font-size: 11px;
     }
@@ -1580,6 +1688,15 @@ html {
         max-width: 100%;
     }
 
+    .contact-block.modal-open-contact-block {
+        display: flex;
+        background-color: #F0F2F5;
+        max-width: 100%;
+        min-height: 48vh;
+        max-height: 83vh;
+        height: 46vh;
+    }
+
 
     .categories-sphere {
         flex-basis: 50%;
@@ -1648,6 +1765,14 @@ html {
         max-width: 100%;
     }
 
+    .buttonc.contact-button.modal-open-contact-button {
+        margin-top: 1.5625vw;
+        height: 3.229167vw;
+        padding: 0.833333vw 4.9vw;
+        font-size: 1vw;
+
+    }
+
     .input {
         width: 23.9vw;
     }
@@ -1659,6 +1784,78 @@ html {
     .notify-text {
         width: 23vw;
     }
+
+    .contact-text-block.modal-open-contact-text-block {
+        margin-left: 0;
+    }
+
+    .modal-open-close {
+        box-sizing: border-box;
+        border: 1px solid var(--sep, rgba(235, 235, 240, 1));
+        width: 2.604167vw;
+        height: 2.604167vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        &:hover {
+            background: rgb(235, 235, 237);
+        }
+    }
+
+    .notify-text.modal-open-notify-text {
+        width: 16.697917vw;
+        height: 3.979167vw;
+        font-size: 0.8vw;
+    }
+
+    .input.modal-open-input {
+        width: 18.75vw;
+        height: 3.4375vw;
+    }
+
+
+
+
+    .modal-open {
+        display: block;
+        position: fixed;
+        width: 23.958333vw;
+        height: 32.65625vw;
+        background-color: rgba(250, 251, 252, 1);
+        z-index: 11111;
+        left: 39.166667vw;
+        top: 8.958333vw;
+        bottom: 8.958333vw;
+        right: 39.166667vw;
+    }
+
+    .section-title_3.section-title_4.modal-open-section-title_4 {
+        font-size: 2.5vw;
+    }
+
+    .clients-text.clients-text2.modal-open-clients-text2 {
+        font-size: 1vw;
+        width: 18.6875vw;
+    }
+
+    .contact-input-group.modal-open-contact-input-group {
+        margin-top: 1.5625vw;
+    }
+
+    .section-title_3.section-title_4.modal-open-section-title_4 {
+        margin-top: 0;
+
+    }
+
+    .contact-text-block.modal-open-contact-text-block {
+        padding-top: 2.083333vw;
+        padding-left: 2.604167vw;
+        padding-right: 2.604167vw;
+    }
+
+
 
 }
 
@@ -1685,6 +1882,62 @@ html {
         height: 85rem;
     }
 
+    .contact-input-group.modal-open-contact-input-group {
+        margin-top: 5.291005rem;
+    }
+
+    .contact-text-block.modal-open-contact-text-block {
+        padding: 7.936508rem;
+        width: 91.269841rem;
+    }
+
+    .contact-block.modal-open-contact-block {
+        display: flex;
+        background-color: #F0F2F5;
+        max-width: 100%;
+        min-height: 44vh;
+        max-height: 96vh;
+        height: 46vh;
+    }
+
+    .buttonc.contact-button.modal-open-contact-button {
+        width: 75.396825rem;
+        height: 16.402116rem;
+        padding: 5.291005rem 13.227513rem 5.291005rem 13.227513rem;
+        margin-top: 5.291005rem;
+        font-size: 3.703704rem;
+
+    }
+
+    .notify-text.modal-open-notify-text {
+        width: 69.047619rem;
+        height: 20.10582rem;
+        font-size: 3.174603rem;
+
+    }
+
+    .input-group>label {
+        font-size: 3.703704rem;
+    }
+
+    .clients-text.clients-text2.modal-open-clients-text2 {
+        font-size: 3.703704rem;
+        width: 18.6875vw;
+        width: 75.396825rem;
+        height: 29.100529rem;
+    }
+
+
+    .input-group.modal-open-input-group {
+        width: 75.396825rem;
+        height: 16.402116rem;
+    }
+
+    .input.modal-open-input {
+        width: 75.396825rem;
+        height: 16.402116rem;
+    }
+
     .logo-svg.footer-logo-svg {
         width: 48rem;
         height: 14rem;
@@ -1695,6 +1948,28 @@ html {
 
 
     }
+
+
+    .modal-open {
+        width: 91.269841rem;
+        height: 150.26455rem;
+        left: 3.968254rem;
+        top: 32.275132rem;
+        bottom: 32.275132rem;
+        right: 3.968254rem;
+    }
+
+
+    .contact-block.modal-open-contact-block {
+        display: flex;
+        height: 100%;
+        background-color: #F0F2F5;
+        max-width: 100%;
+        overflow: scroll;
+
+    }
+
+
 
     .mobile-menu {
         display: flex;
@@ -1909,7 +2184,6 @@ html {
         padding: 4vh 7vw;
         width: 20vw;
         height: 12vh;
-
     }
 
     .navbar-light .mobile-lines {
@@ -1993,6 +2267,8 @@ html {
         height: 8%;
     }
 
+
+
     .container_7 {
         width: 94vw;
         margin: auto;
@@ -2051,6 +2327,11 @@ html {
         display: flex;
         justify-content: flex-end;
         max-width: 92vw;
+    }
+
+    .contact-form-notify.modal-open-contact-form-notify {
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .slider-buttons_2 {
@@ -2311,6 +2592,13 @@ html {
         padding-left: 4rem;
     }
 
+    .section-title_3.section-title_4.modal-open-section-title_4 {
+        margin-top: 0;
+        font-size: 10.582011rem;
+        width: 63.492063rem;
+        height: 12.698413rem;
+    }
+
     .three-blocks {
         width: 96%;
     }
@@ -2340,6 +2628,29 @@ html {
         min-width: 92vw;
         max-width: 100%;
     }
+
+
+    .modal-open-close {
+        box-sizing: border-box;
+        border: 1px solid var(--sep, rgba(235, 235, 240, 1));
+        width: 13.793103rem;
+        height: 13.793103rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        &:hover {
+            background: rgb(235, 235, 237);
+        }
+    }
+
+    .contact-text-block.modal-open-contact-text-block {
+        height: 174rem;
+
+    }
+
+
 
     .card-container_4 {
         width: 100%;
@@ -2572,6 +2883,11 @@ html {
         margin-bottom: 13.3rem;
         gap: 2.7rem;
 
+    }
+
+    .contact-form-footer.modal-open-contact-form-footer {
+
+        gap: 5.4rem;
     }
 
 

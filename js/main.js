@@ -9,31 +9,23 @@ const moblines2 = document.querySelector(".mobile-lines:nth-child(2)");
 const moblines3 = document.querySelector(".mobile-lines:nth-child(3)");
 const hideswiper_2 = document.querySelector(".hide-swiper_2");
 const button = document.querySelector(".header-button");
+const modal_open = document.querySelector(".header-button.hb");
+const modal_win = document.querySelector(".modal-open.contact-block.modal-open-contact-block");
+const body_before = document.querySelector(".body_before");
+const modal_close = document.querySelector(".modal-open-close");
 
-button.addEventListener("click", async () => {
-
-  const response = await fetch(
-    "http://localhost:3000/users"
-  );
-
-  const users = await response.json();
-
-  document.querySelector(".header-text").innerHTML =
-    users.map(user => `${user.name}: ${user.text}`).join("<br>");
-
-});
 
 const lightOn = (even) => {
   navbar.classList.add("navbar-light");
   logo.href.baseVal = "images/sprite.svg#logo";
-  
+
 };
 
 const lightOff = (even) => {
   navbar.classList.remove("navbar-light");
   logo.href.baseVal = "images/sprite.svg#logo-light";
   moblines2.style.display = "block";
- 
+
 };
 
 const close_menu = (x) => {
@@ -52,6 +44,40 @@ const hs66rem = (hw) => {
   hideswiper_2.style.width = "66rem";
 };
 
+
+const body_hidden = (hidden) => {
+  body.style.overflow = "hidden";
+}
+
+const body_scroll = (scroll) => {
+  body.style.overflow = "scroll";
+}
+
+const modal_none = (modal_hidden) => {
+  modal_win.style.display = "none";
+}
+
+const modal_block = (modal_open) => {
+  modal_win.style.display = "block";
+}
+
+const remove_class = (remove) => {
+  body.classList.remove('body_before');
+}
+
+button.addEventListener("click", async () => {
+
+  const response = await fetch(
+    "http://localhost:3000/users"
+  );
+
+  const users = await response.json();
+
+  document.querySelector(".header-text").innerHTML =
+    users.map(user => `${user.name}: ${user.text}`).join("<br>");
+
+});
+
 window.addEventListener("scroll", () => {
 
   this.scrollY > 1 && mobilebc.style.display === "none" ?
@@ -63,14 +89,6 @@ window.addEventListener("scroll", () => {
     close_menu();
   }
 });
-
-const body_hidden = (hidden) => {
-   body.style.overflow = "hidden";
-}
-
-const body_scroll = (scroll) => {
-   body.style.overflow = "scroll";
-}
 
 mobmenu.onclick = () => {
   if (mobilebc.style.display === "none") {
@@ -85,6 +103,45 @@ mobmenu.onclick = () => {
     body_scroll();
   }
 };
+
+modal_open.onclick = () => {
+  if (modal_win.style.display === "none") {
+    modal_block();
+    body.classList.add('body_before');
+    body_hidden();
+  } else {
+    modal_none();
+    remove_class();
+    body_scroll();
+  }
+};
+
+modal_close.onclick = () => {
+  modal_none();
+  remove_class();
+  body_scroll();
+}
+
+
+body.addEventListener('click', function (tap_overlay) {
+  if (tap_overlay.target === body) {
+    remove_class();
+    modal_none();
+  }
+})
+
+window.addEventListener('keydown', function (event) {
+  // Проверяем, что нажата именно клавиша Escape
+  if (event.key === 'Escape') {
+
+    // Проверяем, открыто ли окно в данный момент (чтобы код не срабатывал вхолостую)
+    if (body.classList.contains('body_before')) {
+      remove_class();
+      modal_none();
+    }
+
+  }
+});
 
 const swiper = new Swiper(".swiper", {
   slidesPerView: 1,
@@ -110,8 +167,6 @@ const swiper = new Swiper(".swiper", {
     },
   },
 });
-
-
 
 
 
