@@ -127,6 +127,7 @@ body.addEventListener('click', function (tap_overlay) {
   if (tap_overlay.target === body) {
     remove_class();
     modal_none();
+    body_scroll();
   }
 })
 
@@ -138,6 +139,7 @@ window.addEventListener('keydown', function (event) {
     if (body.classList.contains('body_before')) {
       remove_class();
       modal_none();
+      body_scroll();
     }
 
   }
