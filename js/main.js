@@ -13,6 +13,7 @@ const modal_open = document.querySelector(".header-button.hb");
 const modal_win = document.querySelector(".modal-open.contact-block.modal-open-contact-block");
 const body_before = document.querySelector(".body_before");
 const modal_close = document.querySelector(".modal-open-close");
+const hasHeroImage = document.querySelector(".header.header-image");
 
 
 const lightOn = (even) => {
@@ -22,8 +23,10 @@ const lightOn = (even) => {
 };
 
 const lightOff = (even) => {
-  navbar.classList.remove("navbar-light");
-  logo.href.baseVal = "images/sprite.svg#logo-light";
+  if (hasHeroImage) {
+    navbar.classList.remove("navbar-light");
+    logo.href.baseVal = "images/sprite.svg#logo-light";
+  }
   moblines2.style.display = "block";
 
 };
@@ -63,6 +66,10 @@ const modal_block = (modal_open) => {
 
 const remove_class = (remove) => {
   body.classList.remove('body_before');
+}
+
+if (!hasHeroImage) {
+  lightOn();
 }
 
 button.addEventListener("click", async () => {
