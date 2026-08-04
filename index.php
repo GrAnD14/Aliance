@@ -1,980 +1,754 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <title>Aliance Production</title>
-  </head>
-  <body>
-    
-    <div class="modal-open contact-block modal-open-contact-block"  style="display: none;">
-      <form action="#" class="contact-text-block modal-open-contact-text-block">
-        <div
-          class="modal-open-text-close-block"
-          style="display: flex; justify-content: space-between"
-        >
-          <h2
-            class="section-title_3 section-title_4 modal-open-section-title_4"
-          >
-            Есть вопросы?
-          </h2>
-          <div class="modal-open-close">
-            <svg class="notify-icon" width="24" height="24">
-              <use href="images/sprite.svg#close-x"></use>
-            </svg>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <title>Aliance Production</title>
+</head>
+
+<body>
+
+  <div class="modal-open contact-block modal-open-contact-block" style="display: none;">
+    <form action="#" class="contact-text-block modal-open-contact-text-block">
+      <div class="modal-open-text-close-block" style="display: flex; justify-content: space-between">
+        <h2 class="section-title_3 section-title_4 modal-open-section-title_4">
+          Есть вопросы?
+        </h2>
+        <div class="modal-open-close">
+          <svg class="notify-icon" width="24" height="24">
+            <use href="images/sprite.svg#close-x"></use>
+          </svg>
+        </div>
+      </div>
+      <p class="clients-text clients-text2 modal-open-clients-text2">
+        Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
+        ответит на все интересующие вопросы и поможем даже в самых сложных
+        случаях!
+      </p>
+      <div class="contact-input-group modal-open-contact-input-group">
+        <div class="input-group modal-open-input-group">
+          <input id="user_name" type="text" class="input modal-open-input" placeholder="Имя" />
+          <label for="user_name">Имя</label>
+        </div>
+        <div class="input-group modal-open-input-group">
+          <input id="tel" type="tel" class="input modal-open-input" placeholder="Номер телефона" />
+          <label for="tel">Номер телефона</label>
+        </div>
+      </div>
+      <div class="contact-form-footer modal-open-contact-form-footer">
+        <button type="submit" class="buttonc contact-button modal-open-contact-button">
+          Отправить заявку
+        </button>
+        <div class="contact-form-notify modal-open-contact-form-notify">
+          <svg class="notify-icon" width="14" height="14">
+            <use href="images/sprite.svg#notify-icon"></use>
+          </svg>
+          <p class="notify-text modal-open-notify-text">
+            Обращаясь к нам вы получаете не только профессиональную работу, но
+            и абсолютную конфиденциальность информации!
+          </p>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="mobile-bc-white" style="display: none">
+    <ul class="mobile-nav-headers">
+      <li class="mobile-header-nav-item">
+        <a href="about.php" class="mobile-header-nav-link"><span class="header-links">О компании</span></a>
+      </li>
+      <li class="mobile-header-nav-item">
+        <a href="#" class="mobile-header-nav-link"><span class="header-links">Контрактное производство</span></a>
+        <ul class="submenu-header-links">
+          <li class="submenu-text">
+            <a href=""><span class="submenu-links-text">Автомобильная химия</span></a>
+          </li>
+          <li class="submenu-text">
+            <a href=""><span class="submenu-links-text">Бытовая химия</span></a>
+          </li>
+          <li class="submenu-text">
+            <a href=""><span class="submenu-links-text">Дезинфицирующие средства</span></a>
+          </li>
+          <li class="submenu-text">
+            <a href=""><span class="submenu-links-text">Пищевые аэрозоли</span></a>
+          </li>
+          <li class="submenu-text">
+            <a href=""><span class="submenu-links-text">Косметическая продукция</span></a>
+          </li>
+          <li class="submenu-text">
+            <a href=""><span class="submenu-links-text">Краски аэрозольные</span></a>
+          </li>
+        </ul>
+      </li>
+      <li class="mobile-header-nav-item">
+        <a href="#" class="mobile-header-nav-link"><span class="header-links">Собственные марки</span></a>
+        <ul class="submenu-header-links">
+          <li class="submenu-text">
+            <a href=""><span class="submenu-links-text">Автохимия AG-Tech</span></a>
+          </li>
+          <li class="submenu-text">
+            <a href=""><span class="submenu-links-text">Автохимия AP</span></a>
+          </li>
+        </ul>
+      </li>
+      <li class="mobile-header-nav-item">
+        <a href="#" class="mobile-header-nav-link"><span class="header-links">Новости</span></a>
+      </li>
+      <li class="mobile-header-nav-item">
+        <a href="#" class="mobile-header-nav-link"><span class="header-links">Контакты</span></a>
+      </li>
+    </ul>
+    <a href="tel:74996861014" class="phone-number-info">+7 (499) 686-10-14</a>
+    <div class="mobile-info_1">
+      <svg class="phone-svg_2">
+        <use href="images/sprite.svg#location"></use>
+      </svg>
+      <address class="address-info">
+        <span class="mobile-info-text_1">г. Москва, Холодильный пер. 4к1с8</span>
+      </address>
+    </div>
+    <div class="mobile-info_2">
+      <svg class="phone-svg_2">
+        <use href="images/sprite.svg#mail"></use>
+      </svg>
+      <a href="mailto:" class="mail-info">
+        <span class="mobile-info-text_2">a.dragunov@tdaliance.ru</span>
+      </a>
+    </div>
+    <div class="icons-messangers">
+      <svg class="phone-svg_2">
+        <use href="images/sprite.svg#vk"></use>
+      </svg>
+      <svg class="phone-svg_2">
+        <use href="images/sprite.svg#inst"></use>
+      </svg>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <a href="#" class="mobile-menu">
+      <div class="mobile-lines"></div>
+      <div class="mobile-lines"></div>
+      <div class="mobile-lines"></div>
+    </a>
+    <a href="#" class="header-logo">
+      <svg class="logo-svg">
+        <use href="images/sprite.svg#logo-light"></use>
+      </svg>
+    </a>
+    <ul class="header-nav">
+      <li class="header-nav-item">
+        <a href="about.php" class="header-nav-link">О компании</a>
+      </li>
+      <li class="header-nav-item">
+        <a href="#" class="header-nav-link">Контрактное производство</a>
+      </li>
+      <li class="header-nav-item">
+        <a href="#" class="header-nav-link">Собственные торговые марки</a>
+      </li>
+      <li class="header-nav-item">
+        <a href="#" class="header-nav-link">Новости</a>
+      </li>
+      <li class="header-nav-item">
+        <a href="#" class="header-nav-link">Контакты</a>
+      </li>
+    </ul>
+
+    <div class="header-phone">
+      <a href="tel:74996861014" class="header-phone-link"><svg class="phone-svg">
+          <use href="images/sprite.svg#phone"></use>
+        </svg>
+      </a>
+      <a href="tel:74996861014" class="header-phone-link"><span class="tel-number">+7 (499) 686-10-14</span></a>
+    </div>
+
+    <button class="header-button hb">
+      <svg class="phone-svg-button">
+        <use href="images/sprite.svg#phone"></use>
+      </svg>
+      <span class="consult">Получить консультацию</span>
+    </button>
+  </nav>
+  <!-- /.navbar -->
+  <header class="header header-image">
+    <div class="container">
+      <div class="header-content">
+        <div class="separate"></div>
+        <h1 class="header-title">
+          Комплексное обеспечение товарами и расходными материалами бизнеса
+        </h1>
+        <p class="header-text">
+          Высокий уровень вовлечения представителей целевой аудитории является
+          четким доказательством простого факта: высококачественный прототип
+          будущего проекта напрямую зависит от анализа существующих паттернов
+          поведения.
+        </p>
+        <div class="buttonc">Подробнее о компании</div>
+      </div>
+      <!-- Slider main container -->
+
+      <div class="hide-swiper">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <ul class="swiper-wrapper header-features">
+            <!-- Slides -->
+            <li class="swiper-slide header-features-item">
+              <svg class="sprite-icons">
+                <use href="images/sprite.svg#time"></use>
+              </svg>
+              <p class="swiper-text header-features-text">
+                Непрерывная работа c 2017 года
+              </p>
+            </li>
+            <li class="swiper-slide header-features-item">
+              <svg class="sprite-icons">
+                <use href="images/sprite.svg#certificate"></use>
+              </svg>
+              <p class="swiper-text header-features-text">
+                Вся продукция сертифицирована
+              </p>
+            </li>
+            <li class="swiper-slide header-features-item">
+              <svg class="sprite-icons">
+                <use href="images/sprite.svg#control"></use>
+              </svg>
+              <p class="swiper-text header-features-text">
+                Контроль качества на всех этапах
+              </p>
+            </li>
+            <li class="swiper-slide header-features-item">
+              <svg class="sprite-icons">
+                <use href="images/sprite.svg#delivery"></use>
+              </svg>
+              <p class="swiper-text header-features-text">
+                Возможны поставки по всей России
+              </p>
+            </li>
+            <li class="swiper-slide header-features-item">
+              <svg class="sprite-icons">
+                <use href="images/sprite.svg#speed"></use>
+              </svg>
+              <p class="swiper-text header-features-text">
+                Оперативное производство
+              </p>
+            </li>
+          </ul>
+          <div class="slider-buttons">
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev">
+              <svg width="36" height="24">
+                <use href="images/sprite.svg#arrow-prev"></use>
+              </svg>
+            </div>
+            <div class="swiper-button-next">
+              <svg width="36" height="24">
+                <use href="images/sprite.svg#arrow-next"></use>
+              </svg>
+            </div>
           </div>
         </div>
-        <p class="clients-text clients-text2 modal-open-clients-text2">
+      </div>
+
+      <ul class="header-features">
+        <li class="header-features-item">
+          <svg class="sprite-icons">
+            <use href="images/sprite.svg#time"></use>
+          </svg>
+          <p class="header-features-text">Непрерывная работа c 2017 года</p>
+        </li>
+        <li class="header-features-item">
+          <svg class="sprite-icons">
+            <use href="images/sprite.svg#certificate"></use>
+          </svg>
+          <p class="header-features-text">Вся продукция сертифицирована</p>
+        </li>
+        <li class="header-features-item">
+          <svg class="sprite-icons">
+            <use href="images/sprite.svg#control"></use>
+          </svg>
+          <p class="header-features-text">Контроль качества на всех этапах</p>
+        </li>
+        <li class="header-features-item">
+          <svg class="sprite-icons">
+            <use href="images/sprite.svg#delivery"></use>
+          </svg>
+          <p class="header-features-text">Возможны поставки по всей России</p>
+        </li>
+        <li class="header-features-item">
+          <svg class="sprite-icons">
+            <use href="images/sprite.svg#speed"></use>
+          </svg>
+          <p class="header-features-text">Оперативное производство</p>
+        </li>
+      </ul>
+    </div>
+    <!-- /.container -->
+  </header>
+
+  <section class="section section-light">
+    <div class="container_2">
+      <div class="separate"></div>
+      <h2 class="section-title">схема работы</h2>
+
+      <div class="hide-swiper_2">
+        <div class="swiper" id="swiper_css">
+          <ol class="swiper-wrapper steps">
+            <li class="swiper-slide steps-item">
+              <span class="steps-num">01</span>
+              <h3 class="steps-title">Знакомство</h3>
+              <p class="steps-text">
+                Безусловно, сплочённость команды профессионалов позволяет
+                оценить значение форм воздействия.
+              </p>
+              <a href="#" class="steps-link">Оставить заявку</a>
+            </li>
+            <li class="swiper-slide steps-item">
+              <span class="steps-num">02</span>
+              <h3 class="steps-title">Заключение договора</h3>
+              <p class="steps-text">
+                Лишь интерактивные прототипы призваны к ответу.
+              </p>
+            </li>
+            <li class="swiper-slide steps-item">
+              <span class="steps-num">03</span>
+              <h3 class="steps-title">Производство</h3>
+              <p class="steps-text">
+                А также стремящиеся вытеснить традиционное производство,
+                нанотехнологии функционально разнесены на независимые
+                элементы.
+              </p>
+            </li>
+            <li class="swiper-slide steps-item">
+              <span class="steps-num">04</span>
+              <h3 class="steps-title">Доставка</h3>
+              <p class="steps-text">
+                В частности, экономическая повестка сегодняшнего дня говорит о
+                возможностях приоритизации <br />разума над эмоциями.
+              </p>
+            </li>
+          </ol>
+          <div class="buttons_2">
+            <div class="slider-buttons_2">
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev">
+                <svg width="36" height="24">
+                  <use href="images/sprite.svg#arrow-prev"></use>
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg width="36" height="24">
+                  <use href="images/sprite.svg#arrow-next"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ol class="steps">
+        <li class="steps-item">
+          <span class="steps-num">01</span>
+          <h3 class="steps-title">Знакомство</h3>
+          <p class="steps-text">
+            Безусловно, сплочённость команды профессионалов позволяет оценить
+            значение форм воздействия.
+          </p>
+          <a href="#" class="steps-link">Оставить заявку</a>
+        </li>
+
+        <li class="steps-item">
+          <span class="steps-num">02</span>
+          <h3 class="steps-title">Заключение <br />договора</h3>
+          <p class="steps-text">
+            Лишь интерактивные прототипы призваны к ответу.
+          </p>
+        </li>
+
+        <li class="steps-item">
+          <span class="steps-num">03</span>
+          <h3 class="steps-title">Производство</h3>
+          <p class="steps-text">
+            А также стремящиеся вытеснить традиционное производство,
+            нанотехнологии функционально разнесены на независимые
+            <br />элементы.
+          </p>
+        </li>
+
+        <li class="steps-item">
+          <span class="steps-num">04</span>
+          <h3 class="steps-title">Доставка</h3>
+          <p class="steps-text">
+            В частности, экономическая повестка сегодняшнего дня говорит о
+            возможностях приоритизации <br />разума над эмоциями.
+          </p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section production">
+    <div class="container_3">
+      <div class="separate"></div>
+      <h2 class="section-title">Контрактное производство</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="texts-block">
+            <h3 class="card-title">Автомобильная химия</h3>
+            <p class="card-text_2 card-text_21">
+              Безусловно, сплочённость команды профессионалов позволяет
+              оценить значение форм воздействия.
+            </p>
+          </div>
+          <img src="images/production/one.png" alt="one" class="card-image" />
+        </div>
+        <div class="card">
+          <div class="texts-block">
+            <h3 class="card-title">Бытовая химия</h3>
+            <p class="card-text_2 card-text_21">
+              А также стремящиеся вытеснить традиционное производство,
+              нанотехнологии функционально разнесены на независимые элементы.
+            </p>
+          </div>
+
+          <img src="images/production/two.png" alt="two" class="card-image" />
+        </div>
+        <div class="card">
+          <div class="texts-block">
+            <h3 class="card-title" id="title-width">
+              Дезинфицирующие средства
+            </h3>
+            <p class="card-text_2 card-text_21">
+              Лишь интерактивные прототипы призваны к ответу.
+            </p>
+          </div>
+
+          <img src="images/production/three.png" alt="three" class="card-image" />
+        </div>
+        <div class="card">
+          <div class="texts-block">
+            <h3 class="card-title">Пищевые аэрозоли</h3>
+            <p class="card-text_2 card-text_21">
+              Безусловно, сплочённость команды профессионалов позволяет
+              оценить значение форм воздействия.
+            </p>
+          </div>
+
+          <img src="images/production/three.png" alt="three" class="card-image" />
+        </div>
+        <div class="card">
+          <div class="texts-block">
+            <h3 class="card-title" id="title-width2">
+              Косметическая продукция
+            </h3>
+            <p class="card-text_2 card-text_21" id="text-width2">
+              Лишь интерактивные прототипы призваны к ответу.
+            </p>
+          </div>
+          <img src="images/production/one.png" alt="one" class="card-image" />
+        </div>
+        <div class="card">
+          <div class="texts-block">
+            <h3 class="card-title">Краски аэрозольные</h3>
+            <p class="card-text_2 card-text_21">
+              А также стремящиеся вытеснить традиционное производство,
+              нанотехнологии функционально разнесены на независимые элементы.
+            </p>
+          </div>
+          <img src="images/production/two.png" alt="two" class="card-image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section own-trademarks">
+    <div class="container_4">
+      <div class="separate"></div>
+      <h2 class="section-title">собственные марки</h2>
+      <div class="cards-container_4">
+        <div class="card-container_4">
+          <div class="card-container_4-imgs-container">
+            <img src="images/own-trademarks/triangle.svg" alt="triangle" width="144" height="144" id="triangle"
+              style="max-height: 100%; max-width: 100%" />
+          </div>
+          <h3 class="card-title" id="card-title-trade_1">
+            Автохимия AG-Tech
+          </h3>
+          <p class="card-text">
+            Для современного мира разбавленное изрядной долей эмпатии,
+            рациональное мышление создаёт предпосылки для поставленных
+            обществом задач.
+          </p>
+        </div>
+        <div class="card-container_4">
+          <div class="card-container_4-imgs-container">
+            <img src="images/own-trademarks/logo-img.svg" alt="logo-img" width="144" height="144" id="logo-img"
+              style="max-height: 100%; max-width: 100%" />
+          </div>
+
+          <h3 class="card-title" id="card-title-trade_2">Автохимия AP</h3>
+          <p class="card-text">
+            Для современного мира разбавленное изрядной долей эмпатии,
+            рациональное мышление создаёт предпосылки для поставленных
+            обществом задач.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-attitude-towards-the-client">
+    <div class="container_5">
+      <img class="img-head" src="images/clients/head.png" alt="head" width="840" height="660" />
+      <div class="clients-div">
+        <div class="separate"></div>
+        <h2 class="section-title_2">отношение к делу и к клиентам</h2>
+        <p class="clients-text">
+          Кстати, интерактивные прототипы описаны максимально подробно.
+          Повседневная практика показывает, что укрепление и развитие
+          внутренней структуры говорит о возможностях соответствующих условий
+          активизации. Внезапно, независимые государства, которые представляют
+          собой яркий пример континентально-европейского типа политической
+          культуры, будут подвергнуты целой серии независимых исследований. С
+          учётом сложившейся международной обстановки, синтетическое
+          тестирование выявляет срочную потребность системы массового участия.
+          <br /><br />
+          А ещё действия представителей оппозиции, превозмогая сложившуюся
+          непростую экономическую ситуацию, в равной степени предоставлены
+          сами себе. Не следует, однако, забывать, что выбранный нами
+          инновационный путь в значительной степени обусловливает важность
+          дальнейших направлений развития.
+        </p>
+        <a href="#" class="steps-link_2">Подробнее о компании</a>
+        <a href="#" class="steps-link_2_1">О нашей миссии</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section sphere">
+    <div class="container_6">
+      <div class="separate"></div>
+      <div class="big-blocks">
+        <div class="three-blocks">
+          <h2 class="section-title_3">
+            Производим аэрозольную <br />продукцию для разных сфер
+          </h2>
+          <div class="categories-sphere">
+            <div class="category-sphere">
+              <svg width="30" height="30">
+                <use href="images/sprite.svg#chemichal"></use>
+              </svg>
+              Химические производства
+            </div>
+            <div class="category-sphere">
+              <svg width="30" height="30">
+                <use href="images/sprite.svg#car"></use>
+              </svg>
+              Автомойки
+            </div>
+            <div class="category-sphere">
+              <svg width="30" height="30">
+                <use href="images/sprite.svg#eat"></use>
+              </svg>
+              Пищевая продукция
+            </div>
+            <div class="category-sphere">
+              <svg width="30" height="30">
+                <use href="images/sprite.svg#brush"></use>
+              </svg>
+              Лаки и краски
+            </div>
+            <div class="category-sphere">
+              <svg width="30" height="30">
+                <use href="images/sprite.svg#cosmetic"></use>
+              </svg>
+              Косметические средства
+            </div>
+          </div>
+          <div class="categories-sphere">
+            <div class="category-sphere">
+              <svg width="30" height="30">
+                <use href="images/sprite.svg#car-cosm"></use>
+              </svg>
+              Автомобильная косметика
+            </div>
+            <div class="category-sphere">
+              <svg width="30" height="30">
+                <use href="images/sprite.svg#shirt"></use>
+              </svg>
+              Косметика по уходу за одеждой
+            </div>
+            <div class="category-sphere">
+              <svg width="30" height="30">
+                <use href="images/sprite.svg#boots"></use>
+              </svg>
+              Косметика по уходу за обувью
+            </div>
+            <div class="category-sphere">
+              <svg width="30" height="30">
+                <use href="images/sprite.svg#bricks"></use>
+              </svg>
+              Строительные материалы
+            </div>
+            <div class="category-sphere">
+              <svg width="30" height="30">
+                <use href="images/sprite.svg#more"></use>
+              </svg>
+              И многих других
+            </div>
+          </div>
+        </div>
+        <div class="imgs-logo">
+          <div class="img-logo">
+            <img src="images/sphere/bk.png" alt="bk" class="bk" />
+          </div>
+          <div class="img-logo">
+            <img src="images/sphere/bk.png" alt="bk" class="bk" />
+          </div>
+          <div class="img-logo">
+            <img src="images/sphere/bk.png" alt="bk" class="bk" />
+          </div>
+          <div class="img-logo">
+            <img src="images/sphere/bk.png" alt="bk" class="bk" />
+          </div>
+          <div class="img-logo">
+            <img src="images/sphere/bk.png" alt="bk" class="bk" />
+          </div>
+          <div class="img-logo">
+            <img src="images/sphere/bk.png" alt="bk" class="bk" />
+          </div>
+          <div class="img-logo">
+            <img src="images/sphere/bk.png" alt="bk" class="bk" />
+          </div>
+          <div class="img-logo">
+            <img src="images/sphere/bk.png" alt="bk" class="bk" />
+          </div>
+          <div class="img-logo">
+            <img src="images/sphere/bk.png" alt="bk" class="bk" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section blob">
+    <div class="container_7">
+      <div class="separate"></div>
+      <h2 class="section-title">блог экспертов в области производства</h2>
+      <div class="swiper swiper-blob">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper cards-container_7">
+          <!-- Slides -->
+          <div class="swiper-slide card-container_71">
+            <h3 class="card-title_2">
+              Современная методология разработки одухотворила всех причастных
+            </h3>
+            <p class="card-text_2">
+              Действия представителей оппозиции, превозмогая сложившуюся
+              непростую экономическую ситуацию, в равной степени
+              предоставлены...
+            </p>
+          </div>
+          <div class="swiper-slide card-container_72">
+            <h3 class="card-title_2">
+              Современная методология разработки одухотворила всех причастных
+            </h3>
+            <p class="card-text_2">
+              Действия представителей оппозиции, превозмогая сложившуюся
+              непростую экономическую ситуацию, в равной степени
+              предоставлены...
+            </p>
+          </div>
+          <div class="swiper-slide card-container_71">
+            <h3 class="card-title_2">
+              Современная методология разработки одухотворила всех причастных
+            </h3>
+            <p class="card-text_2">
+              Действия представителей оппозиции, превозмогая сложившуюся
+              непростую экономическую ситуацию, в равной степени
+              предоставлены...
+            </p>
+          </div>
+          <div class="swiper-slide card-container_72">
+            <h3 class="card-title_2">
+              Современная методология разработки одухотворила всех причастных
+            </h3>
+            <p class="card-text_2">
+              Действия представителей оппозиции, превозмогая сложившуюся
+              непростую экономическую ситуацию, в равной степени
+              предоставлены...
+            </p>
+          </div>
+        </div>
+        <div class="cards-container_7-block">
+          <a href="#" class="steps-link_2_1_2">Весь блог</a>
+
+          <div class="slider-buttons_21">
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev">
+              <svg width="36" height="24">
+                <use href="images/sprite.svg#arrow-prev"></use>
+              </svg>
+            </div>
+            <div class="swiper-button-next">
+              <svg width="36" height="24">
+                <use href="images/sprite.svg#arrow-next"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact">
+    <div class="contact-block">
+      <img src="images/contact/spray.png" alt="spray" id="spray" />
+      <form action="#" class="contact-text-block">
+        <h2 class="section-title_3 section-title_4">Хотите сотрудничать?</h2>
+        <p class="clients-text clients-text2">
           Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
           ответит на все интересующие вопросы и поможем даже в самых сложных
           случаях!
         </p>
-        <div class="contact-input-group modal-open-contact-input-group">
-          <div class="input-group modal-open-input-group">
-            <input
-              id="user_name"
-              type="text"
-              class="input modal-open-input"
-              placeholder="Имя"
-            />
+        <div class="contact-input-group">
+          <div class="input-group">
+            <input id="user_name" type="text" class="input" placeholder="Имя" />
             <label for="user_name">Имя</label>
           </div>
-          <div class="input-group modal-open-input-group">
-            <input
-              id="tel"
-              type="tel"
-              class="input modal-open-input"
-              placeholder="Номер телефона"
-            />
+          <div class="input-group">
+            <input id="tel" type="tel" class="input" placeholder="Номер телефона" />
             <label for="tel">Номер телефона</label>
           </div>
         </div>
-        <div class="contact-form-footer modal-open-contact-form-footer">
-          <button
-            type="submit"
-            class="buttonc contact-button modal-open-contact-button"
-          >
+        <div class="contact-form-footer">
+          <button type="submit" class="buttonc contact-button">
             Отправить заявку
           </button>
-          <div class="contact-form-notify modal-open-contact-form-notify">
+          <div class="contact-form-notify">
             <svg class="notify-icon" width="14" height="14">
               <use href="images/sprite.svg#notify-icon"></use>
             </svg>
-            <p class="notify-text modal-open-notify-text">
-              Обращаясь к нам вы получаете не только профессиональную работу, но
-              и абсолютную конфиденциальность информации!
+            <p class="notify-text">
+              Обращаясь к нам вы получаете не только профессиональную работу,
+              но и абсолютную конфиденциальность информации!
             </p>
           </div>
         </div>
       </form>
     </div>
+  </section>
 
-    <div class="mobile-bc-white" style="display: none">
-      <ul class="mobile-nav-headers">
-        <li class="mobile-header-nav-item">
-          <a href="about.php" class="mobile-header-nav-link"
-            ><span class="header-links">О компании</span></a
-          >
-        </li>
-        <li class="mobile-header-nav-item">
-          <a href="#" class="mobile-header-nav-link"
-            ><span class="header-links">Контрактное производство</span></a
-          >
-          <ul class="submenu-header-links">
-            <li class="submenu-text">
-              <a href=""
-                ><span class="submenu-links-text">Автомобильная химия</span></a
-              >
-            </li>
-            <li class="submenu-text">
-              <a href=""
-                ><span class="submenu-links-text">Бытовая химия</span></a
-              >
-            </li>
-            <li class="submenu-text">
-              <a href=""
-                ><span class="submenu-links-text"
-                  >Дезинфицирующие средства</span
-                ></a
-              >
-            </li>
-            <li class="submenu-text">
-              <a href=""
-                ><span class="submenu-links-text">Пищевые аэрозоли</span></a
-              >
-            </li>
-            <li class="submenu-text">
-              <a href=""
-                ><span class="submenu-links-text"
-                  >Косметическая продукция</span
-                ></a
-              >
-            </li>
-            <li class="submenu-text">
-              <a href=""
-                ><span class="submenu-links-text">Краски аэрозольные</span></a
-              >
-            </li>
-          </ul>
-        </li>
-        <li class="mobile-header-nav-item">
-          <a href="#" class="mobile-header-nav-link"
-            ><span class="header-links">Собственные марки</span></a
-          >
-          <ul class="submenu-header-links">
-            <li class="submenu-text">
-              <a href=""
-                ><span class="submenu-links-text">Автохимия AG-Tech</span></a
-              >
-            </li>
-            <li class="submenu-text">
-              <a href=""
-                ><span class="submenu-links-text">Автохимия AP</span></a
-              >
-            </li>
-          </ul>
-        </li>
-        <li class="mobile-header-nav-item">
-          <a href="#" class="mobile-header-nav-link"
-            ><span class="header-links">Новости</span></a
-          >
-        </li>
-        <li class="mobile-header-nav-item">
-          <a href="#" class="mobile-header-nav-link"
-            ><span class="header-links">Контакты</span></a
-          >
-        </li>
-      </ul>
-      <a href="tel:74996861014" class="phone-number-info">+7 (499) 686-10-14</a>
-      <div class="mobile-info_1">
-        <svg class="phone-svg_2">
-          <use href="images/sprite.svg#location"></use>
-        </svg>
-        <address class="address-info">
-          <span class="mobile-info-text_1"
-            >г. Москва, Холодильный пер. 4к1с8</span
-          >
-        </address>
-      </div>
-      <div class="mobile-info_2">
-        <svg class="phone-svg_2">
-          <use href="images/sprite.svg#mail"></use>
-        </svg>
-        <a href="mailto:" class="mail-info">
-          <span class="mobile-info-text_2">a.dragunov@tdaliance.ru</span>
-        </a>
-      </div>
-      <div class="icons-messangers">
-        <svg class="phone-svg_2">
-          <use href="images/sprite.svg#vk"></use>
-        </svg>
-        <svg class="phone-svg_2">
-          <use href="images/sprite.svg#inst"></use>
-        </svg>
-      </div>
-    </div>
+  <?php include 'footer.php'; ?>
 
-    <nav class="navbar">
-      <a href="#" class="mobile-menu">
-        <div class="mobile-lines"></div>
-        <div class="mobile-lines"></div>
-        <div class="mobile-lines"></div>
-      </a>
-      <a href="#" class="header-logo">
-        <svg class="logo-svg">
-          <use href="images/sprite.svg#logo-light"></use>
-        </svg>
-      </a>
-      <ul class="header-nav">
-        <li class="header-nav-item">
-          <a href="about.php" class="header-nav-link">О компании</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контрактное производство</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Собственные торговые марки</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Новости</a>
-        </li>
-        <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контакты</a>
-        </li>
-      </ul>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
 
-      <div class="header-phone">
-        <a href="tel:74996861014" class="header-phone-link"
-          ><svg class="phone-svg">
-            <use href="images/sprite.svg#phone"></use>
-          </svg>
-        </a>
-        <a href="tel:74996861014" class="header-phone-link"
-          ><span class="tel-number">+7 (499) 686-10-14</span></a
-        >
-      </div>
-
-      <button class="header-button hb">
-        <svg class="phone-svg-button">
-          <use href="images/sprite.svg#phone"></use>
-        </svg>
-        <span class="consult">Получить консультацию</span>
-      </button>
-    </nav>
-    <!-- /.navbar -->
-    <header class="header header-image">
-      <div class="container">
-        <div class="header-content">
-          <div class="separate"></div>
-          <h1 class="header-title">
-            Комплексное обеспечение товарами и расходными материалами бизнеса
-          </h1>
-          <p class="header-text">
-            Высокий уровень вовлечения представителей целевой аудитории является
-            четким доказательством простого факта: высококачественный прототип
-            будущего проекта напрямую зависит от анализа существующих паттернов
-            поведения.
-          </p>
-          <div class="buttonc">Подробнее о компании</div>
-        </div>
-        <!-- Slider main container -->
-
-        <div class="hide-swiper">
-          <div class="swiper">
-            <!-- Additional required wrapper -->
-            <ul class="swiper-wrapper header-features">
-              <!-- Slides -->
-              <li class="swiper-slide header-features-item">
-                <svg class="sprite-icons">
-                  <use href="images/sprite.svg#time"></use>
-                </svg>
-                <p class="swiper-text header-features-text">
-                  Непрерывная работа c 2017 года
-                </p>
-              </li>
-              <li class="swiper-slide header-features-item">
-                <svg class="sprite-icons">
-                  <use href="images/sprite.svg#certificate"></use>
-                </svg>
-                <p class="swiper-text header-features-text">
-                  Вся продукция сертифицирована
-                </p>
-              </li>
-              <li class="swiper-slide header-features-item">
-                <svg class="sprite-icons">
-                  <use href="images/sprite.svg#control"></use>
-                </svg>
-                <p class="swiper-text header-features-text">
-                  Контроль качества на всех этапах
-                </p>
-              </li>
-              <li class="swiper-slide header-features-item">
-                <svg class="sprite-icons">
-                  <use href="images/sprite.svg#delivery"></use>
-                </svg>
-                <p class="swiper-text header-features-text">
-                  Возможны поставки по всей России
-                </p>
-              </li>
-              <li class="swiper-slide header-features-item">
-                <svg class="sprite-icons">
-                  <use href="images/sprite.svg#speed"></use>
-                </svg>
-                <p class="swiper-text header-features-text">
-                  Оперативное производство
-                </p>
-              </li>
-            </ul>
-            <div class="slider-buttons">
-              <!-- If we need navigation buttons -->
-              <div class="swiper-button-prev">
-                <svg width="36" height="24">
-                  <use href="images/sprite.svg#arrow-prev"></use>
-                </svg>
-              </div>
-              <div class="swiper-button-next">
-                <svg width="36" height="24">
-                  <use href="images/sprite.svg#arrow-next"></use>
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <ul class="header-features">
-          <li class="header-features-item">
-            <svg class="sprite-icons">
-              <use href="images/sprite.svg#time"></use>
-            </svg>
-            <p class="header-features-text">Непрерывная работа c 2017 года</p>
-          </li>
-          <li class="header-features-item">
-            <svg class="sprite-icons">
-              <use href="images/sprite.svg#certificate"></use>
-            </svg>
-            <p class="header-features-text">Вся продукция сертифицирована</p>
-          </li>
-          <li class="header-features-item">
-            <svg class="sprite-icons">
-              <use href="images/sprite.svg#control"></use>
-            </svg>
-            <p class="header-features-text">Контроль качества на всех этапах</p>
-          </li>
-          <li class="header-features-item">
-            <svg class="sprite-icons">
-              <use href="images/sprite.svg#delivery"></use>
-            </svg>
-            <p class="header-features-text">Возможны поставки по всей России</p>
-          </li>
-          <li class="header-features-item">
-            <svg class="sprite-icons">
-              <use href="images/sprite.svg#speed"></use>
-            </svg>
-            <p class="header-features-text">Оперативное производство</p>
-          </li>
-        </ul>
-      </div>
-      <!-- /.container -->
-    </header>
-
-    <section class="section section-light">
-      <div class="container_2">
-        <div class="separate"></div>
-        <h2 class="section-title">схема работы</h2>
-
-        <div class="hide-swiper_2">
-          <div class="swiper" id="swiper_css">
-            <ol class="swiper-wrapper steps">
-              <li class="swiper-slide steps-item">
-                <span class="steps-num">01</span>
-                <h3 class="steps-title">Знакомство</h3>
-                <p class="steps-text">
-                  Безусловно, сплочённость команды профессионалов позволяет
-                  оценить значение форм воздействия.
-                </p>
-                <a href="#" class="steps-link">Оставить заявку</a>
-              </li>
-              <li class="swiper-slide steps-item">
-                <span class="steps-num">02</span>
-                <h3 class="steps-title">Заключение договора</h3>
-                <p class="steps-text">
-                  Лишь интерактивные прототипы призваны к ответу.
-                </p>
-              </li>
-              <li class="swiper-slide steps-item">
-                <span class="steps-num">03</span>
-                <h3 class="steps-title">Производство</h3>
-                <p class="steps-text">
-                  А также стремящиеся вытеснить традиционное производство,
-                  нанотехнологии функционально разнесены на независимые
-                  элементы.
-                </p>
-              </li>
-              <li class="swiper-slide steps-item">
-                <span class="steps-num">04</span>
-                <h3 class="steps-title">Доставка</h3>
-                <p class="steps-text">
-                  В частности, экономическая повестка сегодняшнего дня говорит о
-                  возможностях приоритизации <br />разума над эмоциями.
-                </p>
-              </li>
-            </ol>
-            <div class="buttons_2">
-              <div class="slider-buttons_2">
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev">
-                  <svg width="36" height="24">
-                    <use href="images/sprite.svg#arrow-prev"></use>
-                  </svg>
-                </div>
-                <div class="swiper-button-next">
-                  <svg width="36" height="24">
-                    <use href="images/sprite.svg#arrow-next"></use>
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <ol class="steps">
-          <li class="steps-item">
-            <span class="steps-num">01</span>
-            <h3 class="steps-title">Знакомство</h3>
-            <p class="steps-text">
-              Безусловно, сплочённость команды профессионалов позволяет оценить
-              значение форм воздействия.
-            </p>
-            <a href="#" class="steps-link">Оставить заявку</a>
-          </li>
-
-          <li class="steps-item">
-            <span class="steps-num">02</span>
-            <h3 class="steps-title">Заключение <br />договора</h3>
-            <p class="steps-text">
-              Лишь интерактивные прототипы призваны к ответу.
-            </p>
-          </li>
-
-          <li class="steps-item">
-            <span class="steps-num">03</span>
-            <h3 class="steps-title">Производство</h3>
-            <p class="steps-text">
-              А также стремящиеся вытеснить традиционное производство,
-              нанотехнологии функционально разнесены на независимые
-              <br />элементы.
-            </p>
-          </li>
-
-          <li class="steps-item">
-            <span class="steps-num">04</span>
-            <h3 class="steps-title">Доставка</h3>
-            <p class="steps-text">
-              В частности, экономическая повестка сегодняшнего дня говорит о
-              возможностях приоритизации <br />разума над эмоциями.
-            </p>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="section production">
-      <div class="container_3">
-        <div class="separate"></div>
-        <h2 class="section-title">Контрактное производство</h2>
-        <div class="cards">
-          <div class="card">
-            <div class="texts-block">
-              <h3 class="card-title">Автомобильная химия</h3>
-              <p class="card-text_2 card-text_21">
-                Безусловно, сплочённость команды профессионалов позволяет
-                оценить значение форм воздействия.
-              </p>
-            </div>
-            <img src="images/production/one.png" alt="one" class="card-image" />
-          </div>
-          <div class="card">
-            <div class="texts-block">
-              <h3 class="card-title">Бытовая химия</h3>
-              <p class="card-text_2 card-text_21">
-                А также стремящиеся вытеснить традиционное производство,
-                нанотехнологии функционально разнесены на независимые элементы.
-              </p>
-            </div>
-
-            <img src="images/production/two.png" alt="two" class="card-image" />
-          </div>
-          <div class="card">
-            <div class="texts-block">
-              <h3 class="card-title" id="title-width">
-                Дезинфицирующие средства
-              </h3>
-              <p class="card-text_2 card-text_21">
-                Лишь интерактивные прототипы призваны к ответу.
-              </p>
-            </div>
-
-            <img
-              src="images/production/three.png"
-              alt="three"
-              class="card-image"
-            />
-          </div>
-          <div class="card">
-            <div class="texts-block">
-              <h3 class="card-title">Пищевые аэрозоли</h3>
-              <p class="card-text_2 card-text_21">
-                Безусловно, сплочённость команды профессионалов позволяет
-                оценить значение форм воздействия.
-              </p>
-            </div>
-
-            <img
-              src="images/production/three.png"
-              alt="three"
-              class="card-image"
-            />
-          </div>
-          <div class="card">
-            <div class="texts-block">
-              <h3 class="card-title" id="title-width2">
-                Косметическая продукция
-              </h3>
-              <p class="card-text_2 card-text_21" id="text-width2">
-                Лишь интерактивные прототипы призваны к ответу.
-              </p>
-            </div>
-            <img src="images/production/one.png" alt="one" class="card-image" />
-          </div>
-          <div class="card">
-            <div class="texts-block">
-              <h3 class="card-title">Краски аэрозольные</h3>
-              <p class="card-text_2 card-text_21">
-                А также стремящиеся вытеснить традиционное производство,
-                нанотехнологии функционально разнесены на независимые элементы.
-              </p>
-            </div>
-            <img src="images/production/two.png" alt="two" class="card-image" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section own-trademarks">
-      <div class="container_4">
-        <div class="separate"></div>
-        <h2 class="section-title">собственные марки</h2>
-        <div class="cards-container_4">
-          <div class="card-container_4">
-            <div class="card-container_4-imgs-container">
-              <img
-                src="images/own-trademarks/triangle.svg"
-                alt="triangle"
-                width="144"
-                height="144"
-                id="triangle"
-                style="max-height: 100%; max-width: 100%"
-              />
-            </div>
-            <h3 class="card-title" id="card-title-trade_1">
-              Автохимия AG-Tech
-            </h3>
-            <p class="card-text">
-              Для современного мира разбавленное изрядной долей эмпатии,
-              рациональное мышление создаёт предпосылки для поставленных
-              обществом задач.
-            </p>
-          </div>
-          <div class="card-container_4">
-            <div class="card-container_4-imgs-container">
-              <img
-                src="images/own-trademarks/logo-img.svg"
-                alt="logo-img"
-                width="144"
-                height="144"
-                id="logo-img"
-                style="max-height: 100%; max-width: 100%"
-              />
-            </div>
-
-            <h3 class="card-title" id="card-title-trade_2">Автохимия AP</h3>
-            <p class="card-text">
-              Для современного мира разбавленное изрядной долей эмпатии,
-              рациональное мышление создаёт предпосылки для поставленных
-              обществом задач.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-attitude-towards-the-client">
-      <div class="container_5">
-        <img
-          class="img-head"
-          src="images/clients/head.png"
-          alt="head"
-          width="840"
-          height="660"
-        />
-        <div class="clients-div">
-          <div class="separate"></div>
-          <h2 class="section-title_2">отношение к делу и к клиентам</h2>
-          <p class="clients-text">
-            Кстати, интерактивные прототипы описаны максимально подробно.
-            Повседневная практика показывает, что укрепление и развитие
-            внутренней структуры говорит о возможностях соответствующих условий
-            активизации. Внезапно, независимые государства, которые представляют
-            собой яркий пример континентально-европейского типа политической
-            культуры, будут подвергнуты целой серии независимых исследований. С
-            учётом сложившейся международной обстановки, синтетическое
-            тестирование выявляет срочную потребность системы массового участия.
-            <br /><br />
-            А ещё действия представителей оппозиции, превозмогая сложившуюся
-            непростую экономическую ситуацию, в равной степени предоставлены
-            сами себе. Не следует, однако, забывать, что выбранный нами
-            инновационный путь в значительной степени обусловливает важность
-            дальнейших направлений развития.
-          </p>
-          <a href="#" class="steps-link_2">Подробнее о компании</a>
-          <a href="#" class="steps-link_2_1">О нашей миссии</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section sphere">
-      <div class="container_6">
-        <div class="separate"></div>
-        <div class="big-blocks">
-          <div class="three-blocks">
-            <h2 class="section-title_3">
-              Производим аэрозольную <br />продукцию для разных сфер
-            </h2>
-            <div class="categories-sphere">
-              <div class="category-sphere">
-                <svg width="30" height="30">
-                  <use href="images/sprite.svg#chemichal"></use>
-                </svg>
-                Химические производства
-              </div>
-              <div class="category-sphere">
-                <svg width="30" height="30">
-                  <use href="images/sprite.svg#car"></use>
-                </svg>
-                Автомойки
-              </div>
-              <div class="category-sphere">
-                <svg width="30" height="30">
-                  <use href="images/sprite.svg#eat"></use>
-                </svg>
-                Пищевая продукция
-              </div>
-              <div class="category-sphere">
-                <svg width="30" height="30">
-                  <use href="images/sprite.svg#brush"></use>
-                </svg>
-                Лаки и краски
-              </div>
-              <div class="category-sphere">
-                <svg width="30" height="30">
-                  <use href="images/sprite.svg#cosmetic"></use>
-                </svg>
-                Косметические средства
-              </div>
-            </div>
-            <div class="categories-sphere">
-              <div class="category-sphere">
-                <svg width="30" height="30">
-                  <use href="images/sprite.svg#car-cosm"></use>
-                </svg>
-                Автомобильная косметика
-              </div>
-              <div class="category-sphere">
-                <svg width="30" height="30">
-                  <use href="images/sprite.svg#shirt"></use>
-                </svg>
-                Косметика по уходу за одеждой
-              </div>
-              <div class="category-sphere">
-                <svg width="30" height="30">
-                  <use href="images/sprite.svg#boots"></use>
-                </svg>
-                Косметика по уходу за обувью
-              </div>
-              <div class="category-sphere">
-                <svg width="30" height="30">
-                  <use href="images/sprite.svg#bricks"></use>
-                </svg>
-                Строительные материалы
-              </div>
-              <div class="category-sphere">
-                <svg width="30" height="30">
-                  <use href="images/sprite.svg#more"></use>
-                </svg>
-                И многих других
-              </div>
-            </div>
-          </div>
-          <div class="imgs-logo">
-            <div class="img-logo">
-              <img src="images/sphere/bk.png" alt="bk" class="bk" />
-            </div>
-            <div class="img-logo">
-              <img src="images/sphere/bk.png" alt="bk" class="bk" />
-            </div>
-            <div class="img-logo">
-              <img src="images/sphere/bk.png" alt="bk" class="bk" />
-            </div>
-            <div class="img-logo">
-              <img src="images/sphere/bk.png" alt="bk" class="bk" />
-            </div>
-            <div class="img-logo">
-              <img src="images/sphere/bk.png" alt="bk" class="bk" />
-            </div>
-            <div class="img-logo">
-              <img src="images/sphere/bk.png" alt="bk" class="bk" />
-            </div>
-            <div class="img-logo">
-              <img src="images/sphere/bk.png" alt="bk" class="bk" />
-            </div>
-            <div class="img-logo">
-              <img src="images/sphere/bk.png" alt="bk" class="bk" />
-            </div>
-            <div class="img-logo">
-              <img src="images/sphere/bk.png" alt="bk" class="bk" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section blob">
-      <div class="container_7">
-        <div class="separate"></div>
-        <h2 class="section-title">блог экспертов в области производства</h2>
-        <div class="swiper swiper-blob">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper cards-container_7">
-            <!-- Slides -->
-            <div class="swiper-slide card-container_71">
-              <h3 class="card-title_2">
-                Современная методология разработки одухотворила всех причастных
-              </h3>
-              <p class="card-text_2">
-                Действия представителей оппозиции, превозмогая сложившуюся
-                непростую экономическую ситуацию, в равной степени
-                предоставлены...
-              </p>
-            </div>
-            <div class="swiper-slide card-container_72">
-              <h3 class="card-title_2">
-                Современная методология разработки одухотворила всех причастных
-              </h3>
-              <p class="card-text_2">
-                Действия представителей оппозиции, превозмогая сложившуюся
-                непростую экономическую ситуацию, в равной степени
-                предоставлены...
-              </p>
-            </div>
-            <div class="swiper-slide card-container_71">
-              <h3 class="card-title_2">
-                Современная методология разработки одухотворила всех причастных
-              </h3>
-              <p class="card-text_2">
-                Действия представителей оппозиции, превозмогая сложившуюся
-                непростую экономическую ситуацию, в равной степени
-                предоставлены...
-              </p>
-            </div>
-            <div class="swiper-slide card-container_72">
-              <h3 class="card-title_2">
-                Современная методология разработки одухотворила всех причастных
-              </h3>
-              <p class="card-text_2">
-                Действия представителей оппозиции, превозмогая сложившуюся
-                непростую экономическую ситуацию, в равной степени
-                предоставлены...
-              </p>
-            </div>
-          </div>
-          <div class="cards-container_7-block">
-            <a href="#" class="steps-link_2_1_2">Весь блог</a>
-
-            <div class="slider-buttons_21">
-              <!-- If we need navigation buttons -->
-              <div class="swiper-button-prev">
-                <svg width="36" height="24">
-                  <use href="images/sprite.svg#arrow-prev"></use>
-                </svg>
-              </div>
-              <div class="swiper-button-next">
-                <svg width="36" height="24">
-                  <use href="images/sprite.svg#arrow-next"></use>
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section contact">
-      <div class="contact-block">
-        <img src="images/contact/spray.png" alt="spray" id="spray" />
-        <form action="#" class="contact-text-block">
-          <h2 class="section-title_3 section-title_4">Хотите сотрудничать?</h2>
-          <p class="clients-text clients-text2">
-            Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
-            ответит на все интересующие вопросы и поможем даже в самых сложных
-            случаях!
-          </p>
-          <div class="contact-input-group">
-            <div class="input-group">
-              <input
-                id="user_name"
-                type="text"
-                class="input"
-                placeholder="Имя"
-              />
-              <label for="user_name">Имя</label>
-            </div>
-            <div class="input-group">
-              <input
-                id="tel"
-                type="tel"
-                class="input"
-                placeholder="Номер телефона"
-              />
-              <label for="tel">Номер телефона</label>
-            </div>
-          </div>
-          <div class="contact-form-footer">
-            <button type="submit" class="buttonc contact-button">
-              Отправить заявку
-            </button>
-            <div class="contact-form-notify">
-              <svg class="notify-icon" width="14" height="14">
-                <use href="images/sprite.svg#notify-icon"></use>
-              </svg>
-              <p class="notify-text">
-                Обращаясь к нам вы получаете не только профессиональную работу,
-                но и абсолютную конфиденциальность информации!
-              </p>
-            </div>
-          </div>
-        </form>
-      </div>
-    </section>
-
-    <footer>
-      <div class="footer-div">
-        <a href="#" class="header-logo footer-header-logo">
-          <svg class="logo-svg footer-logo-svg">
-            <use href="images/sprite.svg#logo"></use>
-          </svg>
-        </a>
-        <a
-          href="tel:74996861014"
-          class="phone-number-info footer-phone-number-info"
-          >+7 (499) 686-10-14</a
-        >
-        <div class="mobile-info_1 footer-mobile-info_1">
-          <svg class="phone-svg_2 footer-phone-svg_2">
-            <use href="images/sprite.svg#location"></use>
-          </svg>
-          <address class="address-info footer-address-info">
-            <span class="mobile-info-text_1 footer-mobile-info-text_1"
-              >г. Москва, Холодильный пер. 4к1с8</span
-            >
-          </address>
-        </div>
-        <div class="mobile-info_2 footer-mobile-info_2">
-          <svg class="phone-svg_2 footer-phone-svg_2">
-            <use href="images/sprite.svg#mail"></use>
-          </svg>
-          <a href="mailto:" class="mail-info footer-mail-info">
-            <span class="mobile-info-text_2 footer-mobile-info-text_2"
-              >a.dragunov@tdaliance.ru</span
-            >
-          </a>
-        </div>
-        <div class="icons-messangers footer-cons-messangers">
-          <svg class="phone-svg_2 footer-phone-svg_2">
-            <use href="images/sprite.svg#vk"></use>
-          </svg>
-          <svg class="phone-svg_2 footer-phone-svg_2">
-            <use href="images/sprite.svg#inst"></use>
-          </svg>
-        </div>
-      </div>
-      <div class="footer-div footer-div-second">
-        <ul class="mobile-nav-headers mnh">
-          <li class="mobile-header-nav-item">
-            <a href="#" class="mobile-header-nav-link"
-              ><span class="header-links">Контрактное производство</span></a
-            >
-            <ul class="submenu-header-links shl2">
-              <li class="submenu-text">
-                <a href=""
-                  ><span class="submenu-links-text"
-                    >Автомобильная химия</span
-                  ></a
-                >
-              </li>
-              <li class="submenu-text">
-                <a href=""
-                  ><span class="submenu-links-text">Бытовая химия</span></a
-                >
-              </li>
-              <li class="submenu-text">
-                <a href=""
-                  ><span class="submenu-links-text"
-                    >Дезинфицирующие средства</span
-                  ></a
-                >
-              </li>
-              <li class="submenu-text">
-                <a href=""
-                  ><span class="submenu-links-text">Пищевые аэрозоли</span></a
-                >
-              </li>
-              <li class="submenu-text">
-                <a href=""
-                  ><span class="submenu-links-text"
-                    >Косметическая продукция</span
-                  ></a
-                >
-              </li>
-              <li class="submenu-text">
-                <a href=""
-                  ><span class="submenu-links-text">Краски аэрозольные</span></a
-                >
-              </li>
-            </ul>
-          </li>
-          <li class="mobile-header-nav-item mhni">
-            <a href="#" class="mobile-header-nav-link"
-              ><span class="header-links">Собственные марки</span></a
-            >
-            <ul class="submenu-header-links shl">
-              <li class="submenu-text">
-                <a href=""
-                  ><span class="submenu-links-text">Автохимия AG-Tech</span></a
-                >
-              </li>
-              <li class="submenu-text">
-                <a href=""
-                  ><span class="submenu-links-text">Автохимия AP</span></a
-                >
-              </li>
-            </ul>
-          </li>
-
-          <ul class="mobile-header-nav-item mhni">
-            <li class="mobile-header-nav-item">
-              <a href="about.php" class="mobile-header-nav-link"
-                ><span class="header-links">О компании</span></a
-              >
-            </li>
-            <li class="mobile-header-nav-item">
-              <a href="#" class="mobile-header-nav-link"
-                ><span class="header-links">Новости</span></a
-              >
-            </li>
-            <li class="mobile-header-nav-item">
-              <a href="#" class="mobile-header-nav-link"
-                ><span class="header-links">Контакты</span></a
-              >
-            </li>
-          </ul>
-        </ul>
-      </div>
-      <div class="footer-div footer-div-third">
-        <div class="footer-low-first">
-          <p class="notify-text">
-            © <?php echo date('Y'); ?> «Aliance Production». Все права защищены.
-          </p>
-          <p class="notify-text" style="text-decoration: underline">
-            Политики конфиденциальности
-          </p>
-        </div>
-        <div class="footer-low-second">
-          <p class="footer-low-second-desktop">Сделано в</p>
-          <p class="footer-low-second-mobile">Дизайн и разработка</p>
-          <img src="images/footer/ruso.svg" alt="ruso" />
-        </div>
-      </div>
-    </footer>
-
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
 </html>
