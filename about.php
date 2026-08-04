@@ -82,7 +82,7 @@
     <div class="mobile-bc-white" style="display: none">
       <ul class="mobile-nav-headers">
         <li class="mobile-header-nav-item">
-          <a href="#" class="mobile-header-nav-link"
+          <a href="index.php" class="mobile-header-nav-link"
             ><span class="header-links">О компании</span></a
           >
         </li>
@@ -190,14 +190,14 @@
         <div class="mobile-lines"></div>
         <div class="mobile-lines"></div>
       </a>
-      <a href="#" class="header-logo">
+      <a href="index.php" class="header-logo">
         <svg class="logo-svg">
           <use href="images/sprite.svg#logo"></use>
         </svg>
       </a>
       <ul class="header-nav">
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">О компании</a>
+          <a href="index.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Контрактное производство</a>
@@ -239,7 +239,7 @@
           <div class="separate"></div>
           <h1 class="about-title">О компании</h1>
           <nav class="breadcrumbs">
-            <a href="index.html" class="breadcrumb-link">Главная</a>
+            <a href="index.php" class="breadcrumb-link">Главная</a>
             <span class="breadcrumb-sep">/</span>
             <span class="breadcrumb-current">О компании</span>
           </nav>
@@ -468,7 +468,7 @@
 
           <ul class="mobile-header-nav-item mhni">
             <li class="mobile-header-nav-item">
-              <a href="#" class="mobile-header-nav-link"
+              <a href="index.php" class="mobile-header-nav-link"
                 ><span class="header-links">О компании</span></a
               >
             </li>
